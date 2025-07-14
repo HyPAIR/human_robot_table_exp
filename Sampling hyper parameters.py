@@ -41,7 +41,7 @@ def pyro_model(x, y):
         sampled_model = model.pyro_sample_from_prior()
         output = sampled_model.likelihood(sampled_model(x))
         pyro.sample("obs", output, obs=y)
-    return y 
+     return y 
     
     
 # Training data is 4 points in [0,1] inclusive regularly spaced
