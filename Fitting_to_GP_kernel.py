@@ -24,6 +24,8 @@ import bokeh.plotting
 import bokeh.models
 from IPython.display import display, HTML
 
+
+
 bokeh.io.output_notebook(hide_banner=True)
 
 tfb = tfp.bijectors
@@ -39,18 +41,24 @@ tf.random.set_seed(42)
 co2_df = pd.read_csv(
     # Source: https://scrippsco2.ucsd.edu/assets/data/atmospheric/stations/in_situ_co2/monthly/monthly_in_situ_co2_mlo.csv
     './monthly_in_situ_co2_mlo.csv', 
-    header=3, # Data starts here
-    skiprows=[4, 5], # Headers consist of multiple rows
-    usecols=[3, 4], # Only keep the 'Date' and 'CO2' columns
+    header=0, # Data starts here
+    #skiprows=[4, 5], # Headers consist of multiple rows
+    usecols=[2, 4], # Only keep the 'Date' and 'CO2' columns
     na_values='-99.99',  # NaNs are denoted as '-99.99'
     dtype=np.float64
 )
+
+
 
 # Drop missing values
 co2_df.dropna(inplace=True)
 # Remove whitespace from column names
 co2_df.rename(columns=lambda x: x.strip(), inplace=True)
 #
+
+print(co2_df.Date)
+print(co2_df.CO2)
+
 
 # Plot data
 fig = bokeh.plotting.figure(
@@ -70,4 +78,12 @@ fig.line(
 fig.legend.location = 'top_left'
 fig.toolbar.autohide = True
 bokeh.plotting.show(fig)
+#
+
+# Split the data into observed and to predict
+date_split_predict = 2010
+df_observed = co2_df[co2_df.Date < date_split_predict]
+print('{} measurements in the observed set'.format(len(df_observed)))
+df_predict = co2_df[co2_df.Date >= date_split_predict]
+print('{} measurements in the test set'.format(len(df_predict)))
 #
