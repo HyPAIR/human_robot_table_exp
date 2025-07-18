@@ -105,8 +105,8 @@ ax.grid(False)
 ax.plot(*X_train.T,'o',color="C1")  # Training samples
 lev = np.linspace(6.,16.,11)
 hc = ax.contourf(x, y, zstd, lev)  # Posterior std
-for hci in hc.collections:
-  hci.set_edgecolor("face")
+#for hci in hc.collections:
+#  hci.set_edgecolor("face")
 
 # Colorbar
 hcb = plt.colorbar(hc)
