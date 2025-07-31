@@ -7,6 +7,7 @@ Created on Thu Jul 17 16:08:29 2025
 """
 
 import numpy as np
+import sys
 
 import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
@@ -14,6 +15,12 @@ import matplotlib.lines as mlines
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, WhiteKernel
 from sklearn.model_selection import train_test_split
+
+
+################################################################
+##################### Set up data ##############################
+################################################################
+
 
 np.random.seed(17)  # So you can reproduce these results at home
 
@@ -23,7 +30,7 @@ xv = np.linspace(-5.,5.,nv)  # x-vector
 yv = np.linspace(-5.,5.,nv)  # y-vector
 x, y = np.meshgrid(xv, yv)  # x and y are (nv, nv) matrices
 z = (x-3.)**2. + 2.*x*y + (2.*y+3.)**2. - 3.
-
+print(z)
 
 noise_level = 5.
 z_noisy = z + np.random.normal(size=x.shape) * noise_level
@@ -31,6 +38,15 @@ z_noisy = z + np.random.normal(size=x.shape) * noise_level
 
 X = np.column_stack((x.reshape(-1), y.reshape(-1)))
 Z = z_noisy.reshape(-1,1)
+
+
+
+sys.exit()
+
+
+################################################################
+##################### Set up kernel ############################
+################################################################
 
 
 
@@ -44,8 +60,18 @@ kernel = (  # Kernel objects can simply be summed using +
 )
 
 
+################################################################
+##################### Split data - train and test set ##########
+################################################################
+
+
+
 X_train, X_test, Y_train, Y_test = train_test_split(X, Z, test_size=0.95)
 
+
+################################################################
+##################### Generate GP ##############################
+################################################################
 
 
 gpr = GaussianProcessRegressor(kernel, normalize_y=True )
@@ -53,13 +79,17 @@ gpr.fit(X_train, Y_train)
 
 
 print(gpr.kernel_)
-# RBF(length_scale=[7.86, 3.71]) + WhiteKernel(noise_level=0.00678)
+#RBF(length_scale=[7.86, 3.71]) + WhiteKernel(noise_level=0.00678)
 
 
 Zfit, Zstd = gpr.predict(X, return_std=True)
 zstd = Zstd.reshape(x.shape)
 zfit = Zfit.reshape(x.shape)
 
+
+################################################################
+##################### Plot   ###################################
+################################################################
 
 
 # Set up figure
