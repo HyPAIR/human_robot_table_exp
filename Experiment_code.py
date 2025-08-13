@@ -16,6 +16,63 @@ from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, WhiteKernel
 from sklearn.model_selection import train_test_split
 
+
+################################################################
+####### class to generate random position ######################
+################################################################
+
+
+class Position:
+  def __init__(self, token_x, token_y):
+      
+    
+      rng = np.random.default_rng()  
+      self.token_x = rng.integers(0, 20, endpoint = False)
+      self.token_y = rng.integers(-3, 3, endpoint = True)
+      
+
+################################################################
+######## class to decide who will perform ######################
+################################################################
+
+
+
+class Time:
+    def __init__(self, x_pos, y_pos):
+        
+        self.x_pos = x_pos
+        self.y_pos = y_pos
+        
+        distance = (self.x_pos**2 + self.y_pos**2) ** 0.5
+        
+        
+        print(self.x_pos)
+        print(self.y_pos)
+        
+        print (distance)
+
+
+
+
+################################################################
+############################ Main ##############################
+################################################################
+
+
+trial = Position(0,0)
+
+time = Time(trial.token_x,trial.token_y)
+
+
+#print (trial.token_x)
+#print (trial.token_y)
+
+
+
+sys.exit()
+
+
+
 ################################################################
 ##################### Set up data ##############################
 ################################################################
@@ -26,6 +83,15 @@ from sklearn.model_selection import train_test_split
 robot_speed = 0.3
 human_speed = 1.
 
+rng = np.random.default_rng()
+token_x = rng.integers(0, 20, endpoint = False)
+
+print ("token_x: ", token_x)
+print ("token_y: ", token_y)
+
+sys.exit()
+
+
 sigma = 1.
 rng = np.random.default_rng()
 # nv = 20  # Number of points in each direction
@@ -34,7 +100,12 @@ yv = np.linspace(-3.,3.,6)  # y-vector
 x, y = np.meshgrid(xv, yv)  # x and y are (nv, nv) matrices
 # z = (x-3.)**2. + 2.*x*y + (2.*y+3.)**2. - 3.
 
-z = rng.lognormal(((x**2)+(y**2)**0.5), sigma, 1)
+#z = rng.lognormal(x, sigma, 1) #((x**2.)+(y**2.)**0.5)
+#z = ((x**2.)+(y**2.)**0.5)
+
+z = y**2
+
+print (z)
 
 #for i in range (0,x):
     

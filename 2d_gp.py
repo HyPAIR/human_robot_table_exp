@@ -30,10 +30,10 @@ xv = np.linspace(-5.,5.,nv)  # x-vector
 yv = np.linspace(-5.,5.,nv)  # y-vector
 x, y = np.meshgrid(xv, yv)  # x and y are (nv, nv) matrices
 z = (x-3.)**2. + 2.*x*y + (2.*y+3.)**2. - 3.
-print(z)
 
 noise_level = 5.
 z_noisy = z + np.random.normal(size=x.shape) * noise_level
+print(z_noisy)
 
 
 X = np.column_stack((x.reshape(-1), y.reshape(-1)))
