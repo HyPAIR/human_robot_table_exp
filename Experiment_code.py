@@ -32,24 +32,47 @@ class Position:
       
 
 ################################################################
-######## class to decide who will perform ######################
+#################### class to manage GP ########################
 ################################################################
 
 
 
-class Time:
+class Gaussian_P:
     def __init__(self, x_pos, y_pos):
         
-        self.x_pos = x_pos
-        self.y_pos = y_pos
+        self.counter_x_pos = x_pos
+        self.counter_y_pos = y_pos
         
-        distance = (self.x_pos**2 + self.y_pos**2) ** 0.5
+        ### define speed of robot and speed of human
+        speed_robot = 0.3
+        speed_human = 1.0
+        
+        print ("robot speed: ", speed_robot)
+        print ("human speed: ", speed_human)
+        
+        ### Euclidean distance of counter_x_pos, counter_y_pos
+        self.distance_robot = (self.counter_x_pos**2 + self.counter_y_pos**2) ** 0.5  
+        self.distance_human = ((20-self.counter_x_pos)**2 + self.counter_y_pos**2) ** 0.5
+        
+        ### time = distance / speed
         
         
-        print(self.x_pos)
-        print(self.y_pos)
         
-        print (distance)
+        ##def decide ()
+       
+        
+        ### take sample from lognormal
+#        rng = np.random.default_rng()
+#        mu, sigma = 3., 1. # mean and standard deviation
+#        s = rng.lognormal(mu, sigma, 1000)
+
+        ##print (s)
+        
+        
+        ##print(self.x_pos)
+        ##print(self.y_pos)
+        
+        ##print (distance)
 
 
 
@@ -61,15 +84,27 @@ class Time:
 
 trial = Position(0,0)
 
-time = Time(trial.token_x,trial.token_y)
 
+print (trial.token_x, trial.token_y)
+
+
+
+
+distance = Gaussian_P(trial.token_x,trial.token_y)
+
+print ("distance robot: ", distance.distance_robot)
+print ("distance human: ", distance.distance_human)
+
+
+
+sys.exit()
 
 #print (trial.token_x)
 #print (trial.token_y)
 
 
 
-sys.exit()
+
 
 
 
