@@ -43,6 +43,9 @@ class Gaussian_P:
         self.counter_x_pos = x_pos
         self.counter_y_pos = y_pos
         
+        
+    def Update ():    
+        
         ### define speed of robot and speed of human
         speed_robot = 0.3
         speed_human = 1.0
@@ -51,28 +54,40 @@ class Gaussian_P:
         print ("human speed: ", speed_human)
         
         ### Euclidean distance of counter_x_pos, counter_y_pos
-        self.distance_robot = (self.counter_x_pos**2 + self.counter_y_pos**2) ** 0.5  
-        self.distance_human = ((20-self.counter_x_pos)**2 + self.counter_y_pos**2) ** 0.5
+        distance_robot = (self.counter_x_pos**2 + self.counter_y_pos**2) ** 0.5  
+        distance_human = ((20-self.counter_x_pos)**2 + self.counter_y_pos**2) ** 0.5
         
         ### time = distance / speed
         
-        
+        ## NEED TO LOOK AT LOG NORMAL DISTRIBUTION - USED THIS TO 
+        ## CALCULATE THE TIME - IE DIXTRIBUTION GIVES THE VARIABILITY ON TIJME
         
         ##def decide ()
        
+        ### time = distance / speed
         
-        ### take sample from lognormal
-#        rng = np.random.default_rng()
-#        mu, sigma = 3., 1. # mean and standard deviation
-#        s = rng.lognormal(mu, sigma, 1000)
+        time_robot = distance_robot / speed_robot
+        time_human = distance_human / speed_human
+       
+               
+        print ("robot time: ", time_robot)
+        print ("human time: ", time_human) 
+       
+        
+        mu  = 1. # mean and standard deviation
+        rng = np.random.default_rng(10)   # seed set to 10 just to get consistency
+        sampled_human = rng.lognormal(time_human, mu, 1)
+        sampled_robot = rng.lognormal(time_robot, mu, 1)
+        
+        print (sampled_human)
+        print (sampled_robot)
 
-        ##print (s)
+
+
         
+
         
-        ##print(self.x_pos)
-        ##print(self.y_pos)
-        
-        ##print (distance)
+
 
 
 
@@ -92,9 +107,8 @@ print (trial.token_x, trial.token_y)
 
 distance = Gaussian_P(trial.token_x,trial.token_y)
 
-print ("distance robot: ", distance.distance_robot)
-print ("distance human: ", distance.distance_human)
 
+x = Gaussian_P(1,1).Update
 
 
 sys.exit()
