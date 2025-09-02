@@ -14,7 +14,9 @@ import matplotlib.lines as mlines
 
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, WhiteKernel
-from sklearn.model_selection import train_test_split
+#from sklearn.model_selection import train_test_split
+#from sklearn.gaussian_process.kernels import RBF, ConstantKernel as C
+
 
 
 
@@ -26,9 +28,26 @@ from sklearn.model_selection import train_test_split
 speed_robot = 0.3
 speed_human = 1.0
 
-rng = np.random.default_rng(10) 
+rng = np.random.default_rng() 
 
-GP = np.array([0,0])  ##### NEED TO FIX THIS - ZEROS WILL KILL THE AVERAGE
+#grid_position = np.empty((0, 2))   # 0 rows, 2 columns
+#GP_time = np.empty((0,))     # empty targets
+
+grid_position = np.array ([[1,1],[1,1]])
+GP_time = np.array ([1,1])
+
+
+################################################################
+#################### create GP's  ##############################
+################################################################
+
+kernel = RBF(length_scale=[1.0, 1.0]) + WhiteKernel(noise_level=0.1)
+gp_human = GaussianProcessRegressor(kernel=kernel, random_state=42)
+gp_human.fit(grid_position, GP_time)
+
+kernel = RBF(length_scale=[1.0, 1.0]) + WhiteKernel(noise_level=0.1)
+gp_robot = GaussianProcessRegressor(kernel=kernel, random_state=42)
+gp_robot.fit(grid_position, GP_time)
 
 
 ################################################################
@@ -36,16 +55,48 @@ GP = np.array([0,0])  ##### NEED TO FIX THIS - ZEROS WILL KILL THE AVERAGE
 ################################################################
 
  
-x_position = rng.integers(0, 20, endpoint = False)
-y_position = rng.integers(-3, 3, endpoint = True)
+x_position = rng.integers(0, 20, endpoint = True)
+y_position = rng.integers(0, 5, endpoint = True)
 
 print("x position: ", x_position)
 print("y poistion: ", y_position)
 
+################################################################
+####################  Predict from GP  #########################
+################################################################
+
+
+X_pred = np.array([[x_position, y_position]])
+time_robot_predict_mean, time_robot_predict_std = gp_robot.predict(X_pred, return_std=True)
+print ("time_robot_predict_mean: ", time_robot_predict_mean)
+
+time_human_predict_mean, time_human_predict_std = gp_human.predict(X_pred, return_std=True)
+print ("time_human_predict_mean: ", time_human_predict_mean)
+
 
 ################################################################
-#################### sample time  ##############################
+####################  Decide H or R  ###########################
 ################################################################
+
+if time_human_predict_mean <= time_robot_predict_mean:
+    
+    print("human")
+
+else:
+    
+    print("Robot")
+
+################################################################
+#################### calculate time  ###########################
+################################################################
+
+
+
+
+
+sys.exit()
+
+
 
 print ("robot speed: ", speed_robot)
 print ("human speed: ", speed_human)
@@ -78,5 +129,11 @@ sampled_robot = rng.lognormal(time_robot, mu, 1)
         
 print (sampled_human)
 print (sampled_robot)
+
+
+################################################################
+#################### Update GP  ################################
+################################################################
+
 
 
