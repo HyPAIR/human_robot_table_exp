@@ -50,8 +50,9 @@ gp_robot = GaussianProcessRegressor(kernel=kernel, random_state=42)
 gp_robot.fit(grid_position, GP_time)
 
 
+
 ################################################################
-#################### calculate positon  ########################
+#################### generate positon  #########################
 ################################################################
 
  
@@ -60,6 +61,16 @@ y_position = rng.integers(0, 5, endpoint = True)
 
 print("x position: ", x_position)
 print("y poistion: ", y_position)
+
+temp_position = np.array ([[x_position,y_position]])
+
+
+grid_position = np.append(grid_position, temp_position, axis = 0)
+
+print (grid_position)
+
+
+
 
 ################################################################
 ####################  Predict from GP  #########################
@@ -78,13 +89,40 @@ print ("time_human_predict_mean: ", time_human_predict_mean)
 ####################  Decide H or R  ###########################
 ################################################################
 
+
+## Decide Robot or human based upon output of GP and calc. Euclidian distance and work out time
+
+mu  = 0. # mean
+sigma = 0.5  #standard deviation
+
+
 if time_human_predict_mean <= time_robot_predict_mean:
     
-    print("human")
+    print("Human")
+    distance_human = ((20-x_position)**2 + y_position**2) ** 0.5
+    time_human = distance_human / speed_human
+    noise_human = time_human + rng.normal(mu, sigma, 1)
+    print (distance_human, time_human, noise_human)
+    GP_time = np.append(GP_time, noise_human, axis = 0)
+    
+    
+    print (GP_time)
+
+    
 
 else:
     
     print("Robot")
+    distance_robot = (x_position**2 + y_position**2) ** 0.5  
+    time_robot = distance_robot / speed_robot
+    noise_robot = time_robot + rng.normal(mu, sigma, 1)
+    print (distance_robot, time_robot, noise_robot)
+    GP_time = np.append(GP_time, noise_robot, axis = 0)
+
+    
+
+   
+    
 
 ################################################################
 #################### calculate time  ###########################
@@ -98,42 +136,6 @@ sys.exit()
 
 
 
-print ("robot speed: ", speed_robot)
-print ("human speed: ", speed_human)
-        
-### Euclidean distance of counter_x_pos, counter_y_pos
-distance_robot = (x_position**2 + y_position**2) ** 0.5  
-distance_human = ((20-x_position)**2 + y_position**2) ** 0.5
-        
-### time = distance / speed
-        
-## NEED TO LOOK AT LOG NORMAL DISTRIBUTION - USED THIS TO 
-## CALCULATE THE TIME - IE DIXTRIBUTION GIVES THE VARIABILITY ON TIJME
-        
-##def decide ()
-       
-### time = distance / speed
-        
-time_robot = distance_robot / speed_robot
-time_human = distance_human / speed_human
-       
-               
-print ("robot time: ", time_robot)
-print ("human time: ", time_human) 
-       
-        
-       
-mu  = 1. # mean and standard deviation
-sampled_human = rng.lognormal(time_human, mu, 1)
-sampled_robot = rng.lognormal(time_robot, mu, 1)
-        
-print (sampled_human)
-print (sampled_robot)
-
-
-################################################################
-#################### Update GP  ################################
-################################################################
 
 
 
