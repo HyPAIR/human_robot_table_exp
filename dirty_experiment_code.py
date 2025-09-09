@@ -64,10 +64,11 @@ print("y poistion: ", y_position)
 
 temp_position = np.array ([[x_position,y_position]])
 
+print ("Grid positon: ",grid_position)
 
 grid_position = np.append(grid_position, temp_position, axis = 0)
 
-print (grid_position)
+print ("Grid positon: ",grid_position)
 
 
 
@@ -106,7 +107,9 @@ if time_human_predict_mean <= time_robot_predict_mean:
     GP_time = np.append(GP_time, noise_human, axis = 0)
     
     
-    print (GP_time)
+
+    
+    print ("GP time: ", GP_time)
 
     
 
@@ -122,18 +125,13 @@ else:
     
 
    
-    
 
-################################################################
-#################### calculate time  ###########################
-################################################################
 
 
 
 
 
 sys.exit()
-
 
 
 
