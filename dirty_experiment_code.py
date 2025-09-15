@@ -18,7 +18,7 @@ from sklearn.gaussian_process.kernels import RBF, WhiteKernel
 #from sklearn.model_selection import train_test_split
 #from sklearn.gaussian_process.kernels import RBF, ConstantKernel as C
 
-
+f = open('workfile', 'w', encoding="utf-8")
 
 ################################################################
 #################### define experiment param ###################
@@ -27,7 +27,7 @@ from sklearn.gaussian_process.kernels import RBF, WhiteKernel
 
 speed_robot = 0.3
 speed_human = 1.0
-count = 200 #number of iterations
+count = 300 #number of iterations
 sleep_time = 0.1 #delay in seconds on each loop
 
 rng = np.random.default_rng() 
@@ -70,6 +70,9 @@ gp_robot.fit(grid_position_robot, GP_time_robot)
 for i in range (0,count):
 
     print ("Count: ",i)
+    output = str(i)
+    output = "\n\n" + output + "\n"
+    f.write (output)
 
 ################################################################
 #################### generate positon  #########################
@@ -81,6 +84,14 @@ for i in range (0,count):
 
     print("x position: ", x_position)
     print("y poistion: ", y_position)
+    
+    output = str (x_position)
+    output = "x position: " + output + "\n"
+    f.write (output)
+    
+    output = str (y_position)
+    output = "y position: " + output + "\n"
+    f.write (output)
 
     temp_position = np.array ([[x_position,y_position]])
 
@@ -106,6 +117,14 @@ for i in range (0,count):
     print ("time_human_predict_mean: ", time_human_predict_mean)
 
 
+    output = str (time_robot_predict_mean)
+    output = "time_robot_predict_mean: " + output + "\n"
+    f.write (output)
+    
+    output = str (time_human_predict_mean)
+    output = "time_human_predict_mean: " + output + "\n"
+    f.write (output)
+
 ################################################################
 ####################  Decide H or R  ###########################
 ################################################################
@@ -120,6 +139,10 @@ for i in range (0,count):
     if time_human_predict_mean <= time_robot_predict_mean:
     
         print("Human")
+        
+        output = "Human \n"
+        f.write(output)
+        
         distance_human = ((20-x_position)**2 + y_position**2) ** 0.5
         time_human = distance_human / speed_human
         noise_human = time_human + rng.normal(mu, sigma, 1)
@@ -127,11 +150,20 @@ for i in range (0,count):
         
         if noise_human < 0: 
             print (noise_human)
+            output = str (noise_human)
+            f.write (output)
             noise_human = np.float64([0])
-            print (noise_human)
+            print ("altered: ", noise_human)
+            f.write ("altered \n")
+            
+            
         display = np.float64(noise_human[0])
         txt = f"{distance_human:.2f}, {time_human:.2f}, {display:.2f}"
         print(txt)
+        
+        f.write (txt)
+        
+        
         noise_human = noise_human.reshape (1,1)
     
         GP_time_human = np.append(GP_time_human, noise_human, axis = 0)
@@ -148,16 +180,27 @@ for i in range (0,count):
     else:
     
         print("Robot")
+        
+        output = "Robot \n"
+        f.write(output)
+        
         distance_robot = (x_position**2 + y_position**2) ** 0.5  
         time_robot = distance_robot / speed_robot
         noise_robot = time_robot + rng.normal(mu, sigma, 1)
+        
         if noise_robot < 0: 
             print(noise_robot)
+            output = str (noise_robot)
+            f.write (output)
             noise_robot = np.float64([0])
-            print (noise_robot)
+            print ("altered: ", noise_robot)
+            f.write ("altered \n")
+            
         display = np.float64(noise_robot[0])
         txt = f"{distance_robot:.2f}, {time_robot:.2f}, {display:.2f}"
         print(txt)
+        
+        f.write(txt)
         
         noise_robot = noise_robot.reshape (1,1)
         
@@ -201,6 +244,8 @@ print ("HUMAN: \n",result_human)
 
 np.savetxt("robot.csv", result_robot, delimiter=",", fmt="%.2f")  # 2 decimal places
 np.savetxt("human.csv", result_human, delimiter=",", fmt ="%.2f") 
+
+f.close()
 
 sys.exit()
 
