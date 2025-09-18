@@ -11,7 +11,6 @@ import sys
 import time
 
 import matplotlib.pyplot as plt
-import matplotlib.lines as mlines
 
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, WhiteKernel
@@ -27,15 +26,18 @@ f = open('workfile', 'w', encoding="utf-8")
 
 speed_robot = 0.3
 speed_human = 1.0
-count = 300 #number of iterations
+count =300 #number of iterations
 sleep_time = 0.1 #delay in seconds on each loop
+robot_count = 0
+human_count = 0
 
 rng = np.random.default_rng() 
 
 grid_position_human = np.array ([[1,1],[1,1]])
 grid_position_robot = np.array ([[1,1],[1,1]])
 #GP_time = np.array ([[1],[1]])
-GP_time_robot = np.random.rand(2,1)
+#GP_time_robot = np.random.rand(2,1)
+GP_time_robot = np.array ([[60.],[60.]])
 GP_time_human = np.random.rand(2,1)
 
 time_human_predict = np.random.rand(2,1)
@@ -140,6 +142,8 @@ for i in range (0,count):
     
         print("Human")
         
+        human_count += 1
+        
         output = "Human \n"
         f.write(output)
         
@@ -152,7 +156,7 @@ for i in range (0,count):
             print (noise_human)
             output = str (noise_human)
             f.write (output)
-            noise_human = np.float64([0])
+            noise_human = np.float64([0.1])
             print ("altered: ", noise_human)
             f.write ("altered \n")
             
@@ -181,6 +185,8 @@ for i in range (0,count):
     
         print("Robot")
         
+        robot_count += 1
+        
         output = "Robot \n"
         f.write(output)
         
@@ -192,7 +198,7 @@ for i in range (0,count):
             print(noise_robot)
             output = str (noise_robot)
             f.write (output)
-            noise_robot = np.float64([0])
+            noise_robot = np.float64([0.1])
             print ("altered: ", noise_robot)
             f.write ("altered \n")
             
@@ -242,12 +248,109 @@ np.set_printoptions(suppress=True,precision=2)
 print ("HUMAN: \n",result_human)
 
 
+
 np.savetxt("robot.csv", result_robot, delimiter=",", fmt="%.2f")  # 2 decimal places
 np.savetxt("human.csv", result_human, delimiter=",", fmt ="%.2f") 
 
-f.close()
+
+output = "robot count: " + str(robot_count)
+f.write (output)
+output = "human count: " + str(human_count)
+f.write (output)          
+
+print ("robot count: ", str(robot_count))
+print ("human count: ", str(human_count))
+
+f.close()  ##close the results file
+
+################################################################
+####################  plot some graphs  ########################
+################################################################
+
+
+column = result_robot[:, 3]
+plt.plot(column , marker='o')
+plt.title("Predited time - Robot")
+plt.xlabel("Index")
+plt.ylabel("Time (s)")
+plt.grid(True)
+plt.show()
+
+
+column = result_robot[:, 4]
+plt.plot(column , marker='o')
+plt.title("Error - Robot")
+plt.xlabel("Index")
+plt.ylabel("Time (s)")
+plt.grid(True)
+plt.show()
+
+column = result_human[:, 3]
+plt.plot(column , marker='o')
+plt.title("Predited time - Human")
+plt.xlabel("Index")
+plt.ylabel("Time (s)")
+plt.grid(True)
+plt.show()
+
+
+column = result_human[:, 4]
+plt.plot(column , marker='o')
+plt.title("Error - Human")
+plt.xlabel("Index")
+plt.ylabel("Time (s)")
+plt.grid(True)
+plt.show()
+
+
+
+fig, axes = plt.subplots(1, 2, figsize=(16, 4))
+
+################################################################
+####################  Plot surfaces  ###########################
+################################################################
+
+## set up grid for plot - surface
+x_grid = np.linspace(0, 20, 20)
+y_grid = np.linspace(0, 5, 5)
+x_grid, y_grid = np.meshgrid(x_grid, y_grid)
+XY_grid = np.column_stack([x_grid.ravel(), y_grid.ravel()])
+
+# Predict mean from robot GP
+z_mean_robot, z_std_robot = gp_robot.predict(XY_grid, return_std=True)
+z_mean_robot = z_mean_robot.reshape(x_grid.shape)
+
+# Predict mean from human GP
+z_mean_human, z_std_human = gp_human.predict(XY_grid, return_std=True)
+z_mean_human = z_mean_human.reshape(x_grid.shape)
+
+
+
+# Create figure with 1 row and 2 columns
+fig = plt.figure(figsize=(12, 5))
+
+# First 3D subplot
+ax1 = fig.add_subplot(1, 2, 1, projection='3d')
+ax1.plot_surface(x_grid, y_grid, z_mean_human, cmap='viridis')
+ax1.set_title("Human")
+
+# Second 3D subplot
+ax2 = fig.add_subplot(1, 2, 2, projection='3d')
+ax2.plot_surface(x_grid, y_grid, z_mean_robot, cmap='plasma')
+ax2.set_title("Robot")
+
+plt.tight_layout()
+plt.show()
+
+
 
 sys.exit()
+
+
+
+
+
+
 
 
 
