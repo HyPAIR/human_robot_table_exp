@@ -2123,280 +2123,280 @@ Human
 
 265
 x position: 15
-y position: 2
-time_robot_predict_mean: [58.52]
-time_human_predict_mean: [5.58]
+y posity position: 2
+time_robot_predict_mean: [57.53]
+time_human_predict_mean: [19.92]
 Human 
-5.39, 5.39, 4.87
+20.10, 20.10, 19.93
 
 266
-x position: 0
-y position: 0
-time_robot_predict_mean: [59.79]
-time_human_predict_mean: [21.09]
+x position: 15
+y position: 4
+time_robot_predict_mean: [52.58]
+time_human_predict_mean: [6.39]
 Human 
-20.00, 20.00, 20.58
+6.40, 6.40, 6.75
 
 267
-x position: 10
-y position: 0
-time_robot_predict_mean: [20.43]
-time_human_predict_mean: [9.92]
+x position: 12
+y position: 2
+time_robot_predict_mean: [60.43]
+time_human_predict_mean: [8.58]
 Human 
-10.00, 10.00, 8.67
+8.25, 8.25, 7.26
 
 268
-x position: 2
-y position: 0
-time_robot_predict_mean: [55.93]
-time_human_predict_mean: [17.1]
+x position: 11
+y position: 3
+time_robot_predict_mean: [56.76]
+time_human_predict_mean: [9.41]
 Human 
-18.00, 18.00, 17.66
+9.49, 9.49, 9.91
 
 269
 x position: 8
-y position: 1
-time_robot_predict_mean: [13.51]
-time_human_predict_mean: [11.69]
+y position: 4
+time_robot_predict_mean: [51.71]
+time_human_predict_mean: [12.37]
 Human 
-12.04, 12.04, 11.93
+12.65, 12.65, 11.34
 
 270
-x position: 15
-y position: 0
-time_robot_predict_mean: [58.52]
-time_human_predict_mean: [3.5]
+x position: 14
+y position: 3
+time_robot_predict_mean: [57.11]
+time_human_predict_mean: [6.36]
 Human 
-5.00, 5.00, 5.11
+6.71, 6.71, 7.53
 
 271
-x position: 9
-y position: 2
-time_robot_predict_mean: [15.45]
-time_human_predict_mean: [11.06]
+x position: 18
+y position: 1
+time_robot_predict_mean: [63.13]
+time_human_predict_mean: [2.27]
 Human 
-11.18, 11.18, 11.24
+2.24, 2.24, 1.82
 
 272
-x position: 4
+x position: 5
 y position: 3
-time_robot_predict_mean: [38.6]
-time_human_predict_mean: [0.]
+time_robot_predict_mean: [55.6]
+time_human_predict_mean: [15.15]
 Human 
-16.28, 16.28, 16.23
+15.30, 15.30, 15.67
 
 273
-x position: 13
-y position: 0
-time_robot_predict_mean: [44.38]
-time_human_predict_mean: [6.32]
+x position: 20
+y position: 1
+time_robot_predict_mean: [63.13]
+time_human_predict_mean: [2.04]
 Human 
-7.00, 7.00, 6.80
+1.00, 1.00, 0.53
 
 274
-x position: 8
-y position: 3
-time_robot_predict_mean: [13.51]
-time_human_predict_mean: [12.67]
-Human 
-12.37, 12.37, 11.93
-
-275
-x position: 18
-y position: 1
-time_robot_predict_mean: [62.15]
-time_human_predict_mean: [2.37]
-Human 
-2.24, 2.24, 1.44
-
-276
-x position: 4
-y position: 1
-time_robot_predict_mean: [38.6]
-time_human_predict_mean: [16.37]
-Human 
-16.03, 16.03, 15.52
-
-277
-x position: 18
-y position: 5
-time_robot_predict_mean: [62.15]
-time_human_predict_mean: [5.56]
-Human 
-5.39, 5.39, 5.86
-
-278
-x position: 1
-y position: 1
-time_robot_predict_mean: [60.]
-time_human_predict_mean: [6.81]
-Human 
-19.03, 19.03, 18.11
-
-279
-x position: 17
-y position: 5
-time_robot_predict_mean: [63.9]
-time_human_predict_mean: [6.29]
-Human 
-5.83, 5.83, 5.93
-
-280
 x position: 11
 y position: 4
-time_robot_predict_mean: [27.56]
-time_human_predict_mean: [9.72]
+time_robot_predict_mean: [52.18]
+time_human_predict_mean: [9.28]
 Human 
-9.85, 9.85, 10.16
+9.85, 9.85, 8.80
+
+275
+x position: 7
+y position: 3
+time_robot_predict_mean: [56.05]
+time_human_predict_mean: [13.9]
+Human 
+13.34, 13.34, 13.35
+
+276
+x position: 6
+y position: 5
+time_robot_predict_mean: [46.05]
+time_human_predict_mean: [14.63]
+Human 
+14.87, 14.87, 15.02
+
+277
+x position: 0
+y position: 3
+time_robot_predict_mean: [54.17]
+time_human_predict_mean: [20.16]
+Human 
+20.22, 20.22, 19.34
+
+278
+x position: 10
+y position: 5
+time_robot_predict_mean: [46.7]
+time_human_predict_mean: [11.28]
+Human 
+11.18, 11.18, 11.02
+
+279
+x position: 0
+y position: 3
+time_robot_predict_mean: [54.17]
+time_human_predict_mean: [20.05]
+Human 
+20.22, 20.22, 20.13
+
+280
+x position: 16
+y position: 3
+time_robot_predict_mean: [57.26]
+time_human_predict_mean: [5.62]
+Human 
+5.00, 5.00, 5.71
 
 281
-x position: 17
-y position: 2
-time_robot_predict_mean: [63.9]
-time_human_predict_mean: [2.32]
+x position: 14
+y position: 1
+time_robot_predict_mean: [62.89]
+time_human_predict_mean: [6.01]
 Human 
-3.61, 3.61, 4.28
+6.08, 6.08, 5.66
 
 282
-x position: 16
-y position: 2
-time_robot_predict_mean: [62.6]
-time_human_predict_mean: [4.23]
+x position: 13
+y position: 1
+time_robot_predict_mean: [62.78]
+time_human_predict_mean: [7.03]
 Human 
-4.47, 4.47, 4.14
+7.07, 7.07, 6.60
 
 283
-x position: 1
-y position: 5
-time_robot_predict_mean: [60.]
-time_human_predict_mean: [20.2]
+x position: 19
+y position: 1
+time_robot_predict_mean: [63.14]
+time_human_predict_mean: [1.67]
 Human 
-19.65, 19.65, 19.70
+1.41, 1.41, 1.37
 
 284
-x position: 13
+x position: 0
 y position: 0
-time_robot_predict_mean: [44.38]
-time_human_predict_mean: [6.56]
+time_robot_predict_mean: [60.38]
+time_human_predict_mean: [19.53]
 Human 
-7.00, 7.00, 7.48
+20.00, 20.00, 19.33
 
 285
 x position: 12
-y position: 3
-time_robot_predict_mean: [35.87]
-time_human_predict_mean: [8.35]
+y position: 2
+time_robot_predict_mean: [60.43]
+time_human_predict_mean: [8.14]
 Human 
-8.54, 8.54, 7.86
+8.25, 8.25, 8.63
 
 286
-x position: 19
-y position: 0
-time_robot_predict_mean: [57.47]
-time_human_predict_mean: [1.1]
+x position: 15
+y position: 1
+time_robot_predict_mean: [62.98]
+time_human_predict_mean: [5.17]
 Human 
-1.00, 1.00, 1.01
+5.10, 5.10, 5.11
 
 287
-x position: 18
-y position: 5
-time_robot_predict_mean: [62.15]
-time_human_predict_mean: [5.64]
+x position: 5
+y position: 2
+time_robot_predict_mean: [59.05]
+time_human_predict_mean: [15.72]
 Human 
-5.39, 5.39, 5.45
+15.13, 15.13, 15.15
 
 288
-x position: 6
-y position: 1
-time_robot_predict_mean: [20.46]
-time_human_predict_mean: [14.3]
+x position: 12
+y position: 0
+time_robot_predict_mean: [63.42]
+time_human_predict_mean: [8.22]
 Human 
-14.04, 14.04, 13.84
+8.00, 8.00, 8.09
 
 289
-x position: 0
-y position: 5
-time_robot_predict_mean: [59.79]
-time_human_predict_mean: [21.37]
+x position: 10
+y position: 4
+time_robot_predict_mean: [52.04]
+time_human_predict_mean: [10.5]
 Human 
-20.62, 20.62, 21.02
+10.77, 10.77, 11.39
 
 290
-x position: 8
-y position: 2
-time_robot_predict_mean: [13.51]
-time_human_predict_mean: [12.1]
+x position: 18
+y position: 4
+time_robot_predict_mean: [52.7]
+time_human_predict_mean: [4.37]
 Human 
-12.17, 12.17, 11.81
+4.47, 4.47, 4.28
 
 291
-x position: 3
-y position: 3
-time_robot_predict_mean: [48.3]
-time_human_predict_mean: [17.79]
+x position: 19
+y position: 0
+time_robot_predict_mean: [63.91]
+time_human_predict_mean: [1.07]
 Human 
-17.26, 17.26, 17.51
+1.00, 1.00, 0.93
 
 292
-x position: 5
-y position: 0
-time_robot_predict_mean: [28.72]
-time_human_predict_mean: [14.98]
+x position: 11
+y position: 5
+time_robot_predict_mean: [46.82]
+time_human_predict_mean: [9.96]
 Human 
-15.00, 15.00, 14.26
+10.30, 10.30, 10.95
 
 293
-x position: 5
-y position: 5
-time_robot_predict_mean: [28.72]
-time_human_predict_mean: [16.16]
+x position: 6
+y position: 1
+time_robot_predict_mean: [61.48]
+time_human_predict_mean: [14.46]
 Human 
-15.81, 15.81, 16.06
+14.04, 14.04, 15.34
 
 294
-x position: 0
-y position: 4
-time_robot_predict_mean: [59.79]
-time_human_predict_mean: [19.93]
+x position: 16
+y position: 1
+time_robot_predict_mean: [63.05]
+time_human_predict_mean: [4.5]
 Human 
-20.40, 20.40, 20.68
+4.12, 4.12, 4.67
 
 295
-x position: 8
-y position: 0
-time_robot_predict_mean: [13.51]
-time_human_predict_mean: [11.88]
+x position: 5
+y position: 2
+time_robot_predict_mean: [59.05]
+time_human_predict_mean: [15.53]
 Human 
-12.00, 12.00, 12.04
+15.13, 15.13, 14.73
 
 296
-x position: 17
-y position: 1
-time_robot_predict_mean: [63.9]
-time_human_predict_mean: [3.53]
+x position: 9
+y position: 0
+time_robot_predict_mean: [62.91]
+time_human_predict_mean: [11.42]
 Human 
-3.16, 3.16, 3.30
+11.00, 11.00, 10.45
 
 297
-x position: 5
-y position: 5
-time_robot_predict_mean: [28.72]
-time_human_predict_mean: [16.13]
+x position: 0
+y position: 3
+time_robot_predict_mean: [54.17]
+time_human_predict_mean: [20.06]
 Human 
-15.81, 15.81, 15.83
+20.22, 20.22, 20.78
 
 298
-x position: 14
-y position: 3
-time_robot_predict_mean: [52.21]
-time_human_predict_mean: [6.65]
+x position: 8
+y position: 2
+time_robot_predict_mean: [59.75]
+time_human_predict_mean: [12.53]
 Human 
-6.71, 6.71, 6.40
+12.17, 12.17, 13.12
 
 299
-x position: 9
-y position: 4
-time_robot_predict_mean: [15.45]
-time_human_predict_mean: [11.98]
+x position: 3
+y position: 1
+time_robot_predict_mean: [60.65]
+time_human_predict_mean: [0.]
 Human 
-11.70, 11.70, 12.04robot count: 3human count: 297
+17.03, 17.03, 16.97man count: 297
