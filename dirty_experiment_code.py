@@ -26,7 +26,7 @@ f = open('workfile', 'w', encoding="utf-8")
 
 speed_robot = 0.4
 speed_human = 1.0
-count =600 #number of iterations
+count =200 #number of iterations
 sleep_time = 0.1 #delay in seconds on each loop
 robot_count = 0  # how many time was robot chosen
 human_count = 0  # how many times was human chosen
@@ -128,7 +128,7 @@ for i in range (0,count):
         
 
 ################################################################
-#################### generate positon  #########################
+#################### generate position  #########################
 ################################################################
 
  
@@ -192,7 +192,7 @@ for i in range (0,count):
     mu  = 0. # mean
     sigma = 0.5  # standard deviation
     
-    if i>2 and (time_human_predict_mean == 0 or time_robot_predict_mean == 0):
+    if i>1 and (time_human_predict_mean <= 0.01 or time_robot_predict_mean <= 0.01):
         print ("died")
         output = "died \n"
         f.write (output)
@@ -201,7 +201,7 @@ for i in range (0,count):
 
     if stop == 0:
         
-        if time_human_predict_mean <= time_robot_predict_mean:
+        if True:#time_human_predict_mean <= time_robot_predict_mean:
     
             print("Human")
         
@@ -246,7 +246,7 @@ for i in range (0,count):
             time_human_predict = np.append(time_human_predict, time_human_predict_mean, axis = 0)
         
         
-        else:
+        if True:
     
             print("Robot")
         
@@ -267,6 +267,7 @@ for i in range (0,count):
                 print ("altered: ", noise_robot)
                 f.write ("altered \n")
             
+            
             display = np.float64(noise_robot[0])
             txt = f"{distance_robot:.2f}, {time_robot:.2f}, {display:.2f}"
             print(txt)
@@ -284,6 +285,11 @@ for i in range (0,count):
             time_robot_predict_mean = time_robot_predict_mean.reshape(1,1)
         
             time_robot_predict = np.append(time_robot_predict, time_robot_predict_mean, axis = 0)
+
+#            if x_position > 15:
+#                print ("Too high: ")
+#               f.write("Too high")
+
 
 #            if noise_robot < 0:
 #                print ("died")
@@ -357,7 +363,6 @@ plt.xlabel("Index")
 plt.ylabel("Time (s)")
 plt.grid(True)
 plt.show()
-
 
 column = result_robot[:, 4]
 plt.plot(column , marker='o')
