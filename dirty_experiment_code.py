@@ -13,7 +13,7 @@ import time
 import matplotlib.pyplot as plt
 
 from sklearn.gaussian_process import GaussianProcessRegressor
-from sklearn.gaussian_process.kernels import RBF, WhiteKernel
+from sklearn.gaussian_process.kernels import RBF, WhiteKernel, ConstantKernel as C
 #from sklearn.model_selection import train_test_split
 #from sklearn.gaussian_process.kernels import RBF, ConstantKernel as C
 
@@ -26,12 +26,20 @@ f = open('workfile', 'w', encoding="utf-8")
 
 speed_robot = 0.4
 speed_human = 1.0
-count =200 #number of iterations
+count = 400 #number of iterations
 sleep_time = 0.1 #delay in seconds on each loop
 robot_count = 0  # how many time was robot chosen
 human_count = 0  # how many times was human chosen
 stop = 0  # used to skip loop on zero predicted time
 died = 0  # used to count how many times loop is skipped
+mu  = 0. # mean
+sigma = 0.5  # standard deviation
+#kernel = RBF(length_scale=[1.0, 2.0],length_scale_bounds=(1e-3, 1e5))
+#kernel = RBF(length_scale=[1.0,1.0], length_scale_bounds=(1e-3, 1e2)) #WhiteKernel(noise_level=0.2)
+kernel = C(1.0, (1e-3, 1e3)) * RBF(length_scale=[1.0, 1.0], length_scale_bounds=(1e-2, 1e2))
+gp_robot = GaussianProcessRegressor(kernel=kernel, random_state=None) #42
+gp_human = GaussianProcessRegressor(kernel=kernel, random_state=None) #42
+
 
 rng = np.random.default_rng() 
 
@@ -70,16 +78,8 @@ time_robot_predict = np.array([[60.],[60.]])
 #################### create GP's  ##############################
 ################################################################
 
-#kernel = RBF(length_scale=[1.0, 2.0],length_scale_bounds=(1e-3, 1e5))
 
-kernel = RBF(length_scale=[1.0,1.0]) #WhiteKernel(noise_level=0.2)
-
-gp_human = GaussianProcessRegressor(kernel=kernel, random_state=42)
 gp_human.fit(grid_position_human, GP_time_human)
-
-#kernel = RBF(length_scale=[1.0, 2.0],length_scale_bounds=(1e-3, 1e5))
-
-gp_robot = GaussianProcessRegressor(kernel=kernel, random_state=42)
 gp_robot.fit(grid_position_robot, GP_time_robot)
 
 
@@ -189,8 +189,7 @@ for i in range (0,count):
 
 ## Decide Robot or human based upon output of GP and calc. Euclidian distance and work out time
 
-    mu  = 0. # mean
-    sigma = 0.5  # standard deviation
+
     
     if i>1 and (time_human_predict_mean <= 0.01 or time_robot_predict_mean <= 0.01):
         print ("died")
@@ -201,7 +200,7 @@ for i in range (0,count):
 
     if stop == 0:
         
-        if True:#time_human_predict_mean <= time_robot_predict_mean:
+        if time_human_predict_mean <= time_robot_predict_mean:
     
             print("Human")
         
@@ -246,7 +245,7 @@ for i in range (0,count):
             time_human_predict = np.append(time_human_predict, time_human_predict_mean, axis = 0)
         
         
-        if True:
+        else:
     
             print("Robot")
         
@@ -273,6 +272,8 @@ for i in range (0,count):
             print(txt)
         
             f.write(txt)
+            
+    ## Add new data to the end of the old
         
             noise_robot = noise_robot.reshape (1,1)
         
@@ -391,7 +392,7 @@ plt.show()
 
 
 ################################################################
-####################  Plot surfaces  ###########################
+####################  Plot two surfaces  #######################
 ################################################################
 
 ## set up grid for plot - surface
@@ -417,13 +418,58 @@ fig = plt.figure(figsize=(12, 5))
 ax1 = fig.add_subplot(1, 2, 1, projection='3d')
 ax1.plot_surface(x_grid, y_grid, z_mean_human, cmap='viridis')
 ax1.set_title("Human")
+ax1.set_xlabel("x")
+ax1.set_ylabel("y")
+ax1.set_zlabel("time (s)")
 
 # Second 3D subplot
 ax2 = fig.add_subplot(1, 2, 2, projection='3d')
 ax2.plot_surface(x_grid, y_grid, z_mean_robot, cmap='plasma')
 ax2.set_title("Robot")
+ax2.set_xlabel("x")
+ax2.set_ylabel("y")
+ax2.set_zlabel("time (s)")
+
+# --- Synchronize z-axis limits ---
+z_min = min(ax1.get_zlim()[0], ax2.get_zlim()[0])
+z_max = max(ax1.get_zlim()[1], ax2.get_zlim()[1])
+ax1.set_zlim(z_min, z_max)
+ax2.set_zlim(z_min, z_max)
+
 
 plt.tight_layout()
+plt.show()
+
+################################################################
+####################  Plot single surfaces  ####################
+################################################################
+
+
+
+# Plot human and robot surfaces on same axes
+fig = plt.figure(figsize=(10, 7))
+ax = fig.add_subplot(111, projection="3d")
+
+# Human surface
+ax.plot_surface(x_grid, y_grid, z_mean_human, cmap="viridis", alpha=0.7, label="Human")
+
+# Robot surface
+ax.plot_surface(x_grid, y_grid, z_mean_robot, cmap="magma", alpha=0.7, label="Robot")
+
+# Training points
+#ax.scatter(X_train[:, 0], X_train[:, 1], y_train, c="red", marker="x", s=50, label="Train points")
+
+ax.set_title("Surfaces showing predicted human and robot time to collect token")
+ax.set_xlabel("x")
+ax.set_ylabel("y")
+ax.set_zlabel("Time (s)")
+
+# Manually add legend since plot_surface ignores label
+#scatter_proxy = plt.Line2D([0], [0], linestyle="none", marker="x", color="red")
+#ax.legend([scatter_proxy], ["Train points"], numpoints=1, loc="best")
+
+ax.legend (["Human - blue / yellow; Robot - orange / purple"], loc="best")
+
 plt.show()
 
 
