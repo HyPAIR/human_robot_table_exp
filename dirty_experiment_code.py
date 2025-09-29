@@ -44,6 +44,8 @@ gp_human = GaussianProcessRegressor(kernel=kernel, random_state=None) #42
 rng = np.random.default_rng() 
 
 
+
+
 ################################################################
 #################### set up initial data #######################
 ################################################################
@@ -52,13 +54,11 @@ rng = np.random.default_rng()
 
 grid_position_human = np.array ([[1,1],[1,1]])
 grid_position_robot = np.array ([[1,1],[1,1]])
-######GP_time = np.array ([[1],[1]])
-######GP_time_robot = np.random.rand(2,1)
+
 GP_time_robot = np.array ([[60.],[60.]])
 GP_time_human = np.random.rand(2,1)
 
 time_human_predict = np.random.rand(2,1)
-######time_robot_predict = np.random.rand(2,1)
 time_robot_predict = np.array([[60.],[60.]])
 
 
@@ -66,9 +66,11 @@ time_robot_predict = np.array([[60.],[60.]])
 
 #print (np.shape(grid_position))
 
+
 #print (np.shape(GP_time))
 
 #print (np.shape(GP_time_temp))
+
 
 
 
@@ -124,11 +126,11 @@ for i in range (0,count):
         print("time_human_predict: ", time_human_predict)
         print("time_robot_predict: ", time_robot_predict)
         
-        #sys.exit()
+    #    #sys.exit()
         
 
 ################################################################
-#################### generate position  #########################
+#################### generate position  ########################
 ################################################################
 
  
@@ -150,12 +152,33 @@ for i in range (0,count):
 
     #print ("Grid positon: ",grid_position)
 
+################################################################
+#################### sort initial data #########################
+################################################################
 
-
-    #print ("Grid positon: ",grid_position)
-
-
-
+    #if i == 0: # First round - do human
+    #    distance_human = ((20-x_position)**2 + y_position**2) ** 0.5
+    #    time_human = distance_human / speed_human
+    #    noise_human = time_human + rng.normal(mu, sigma, 1)
+    #    noise_human = noise_human.reshape (1,1)
+    #    GP_time_human = np.append(GP_time_human, noise_human, axis = 0)
+    #    grid_position_human = np.append(grid_position_human, temp_position, axis = 0)
+    #    gp_human.fit(grid_position_human, GP_time_human) #re-generate GP with new data
+    #    time_human_predict_mean = time_human_predict_mean.reshape(1,1)
+    #   time_human_predict = np.append(time_human_predict, time_human_predict_mean, axis = 0)
+    #    continue
+    
+    #elif i == 1: # Second round, do robot
+    #    distance_robot = ((x_position)**2 + y_position**2) ** 0.5
+    #    time_robot = distance_robot / speed_robot
+    #    noise_robot = time_robot + rng.normal(mu, sigma, 1)
+    #    noise_robot = noise_robot.reshape (1,1)
+    #    GP_time_robot = np.append(GP_time_robot, noise_robot, axis = 0)
+    #    grid_position_robot = np.append(grid_position_robot, temp_position, axis = 0)
+    #    gp_robot.fit(grid_position_robot, GP_time_robot) #re-generate GP with new data
+    #    time_robot_predict_mean = time_robot_predict_mean.reshape(1,1)
+    #    time_robot_predict = np.append(time_robot_predict, time_robot_predict_mean, axis = 0)
+    #    continue
 
 ################################################################
 ####################  Predict from GP  #########################
@@ -178,8 +201,6 @@ for i in range (0,count):
     output = "time_human_predict_mean: " + output + "\n"
     f.write (output)
 
-# if the GP fails to converge the prediction is 0. - ignore these
-
 
 ################################################################
 ####################  Decide H or R  ###########################
@@ -190,14 +211,14 @@ for i in range (0,count):
 ## Decide Robot or human based upon output of GP and calc. Euclidian distance and work out time
 
 
-    
+    # look to see if there is a less than zero time prediction and skip if this is the case
     if i>1 and (time_human_predict_mean <= 0.01 or time_robot_predict_mean <= 0.01):
         print ("died")
         output = "died \n"
         f.write (output)
         stop = 1
         
-
+    # main loop - runs if +ve values for predicted time.
     if stop == 0:
         
         if time_human_predict_mean <= time_robot_predict_mean:
@@ -238,7 +259,7 @@ for i in range (0,count):
         
             grid_position_human = np.append(grid_position_human, temp_position, axis = 0)
         
-            gp_human.fit(grid_position_human, GP_time_human)
+            gp_human.fit(grid_position_human, GP_time_human) #re-generate GP with new data
         
             time_human_predict_mean = time_human_predict_mean.reshape(1,1)
                 
@@ -281,8 +302,8 @@ for i in range (0,count):
         
             grid_position_robot = np.append(grid_position_robot, temp_position, axis = 0)
         
-            gp_robot.fit(grid_position_robot, GP_time_robot)
-        
+            gp_robot.fit(grid_position_robot, GP_time_robot) #re-generate GP with new data
+            
             time_robot_predict_mean = time_robot_predict_mean.reshape(1,1)
         
             time_robot_predict = np.append(time_robot_predict, time_robot_predict_mean, axis = 0)
@@ -456,8 +477,6 @@ ax.plot_surface(x_grid, y_grid, z_mean_human, cmap="viridis", alpha=0.7, label="
 # Robot surface
 ax.plot_surface(x_grid, y_grid, z_mean_robot, cmap="magma", alpha=0.7, label="Robot")
 
-# Training points
-#ax.scatter(X_train[:, 0], X_train[:, 1], y_train, c="red", marker="x", s=50, label="Train points")
 
 ax.set_title("Surfaces showing predicted human and robot time to collect token")
 ax.set_xlabel("x")
@@ -465,11 +484,9 @@ ax.set_ylabel("y")
 ax.set_zlabel("Time (s)")
 
 # Manually add legend since plot_surface ignores label
-#scatter_proxy = plt.Line2D([0], [0], linestyle="none", marker="x", color="red")
-#ax.legend([scatter_proxy], ["Train points"], numpoints=1, loc="best")
-
 ax.legend (["Human - blue / yellow; Robot - orange / purple"], loc="best")
 
+plt.tight_layout()
 plt.show()
 
 
