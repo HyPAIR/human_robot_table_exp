@@ -1,3203 +1,2826 @@
 
-
 0
-x position: 1
-y position: 0
-time_robot_predict_mean: [36.39183958]
-time_human_predict_mean: [0.38653472]
-Human 
-19.00, 19.00, 19.22
+x position: 19
+y position: 2
 
 1
-x position: 15
-y position: 1
-time_robot_predict_mean: [1.649271e-41]
-time_human_predict_mean: [1.75177279e-43]
-Human 
-5.10, 5.10, 4.68
+x position: 11
+y position: 4
 
 2
-x position: 16
+x position: 18
 y position: 5
-time_robot_predict_mean: [2.79039819e-51]
-time_human_predict_mean: [0.]
+time_robot_predict_mean: [0.]
+time_human_predict_mean: [0.01]
 died 
-
-
+Robot 
+18.68, 46.70, 47.01
 3
-x position: 15
-y position: 5
-time_robot_predict_mean: [5.53268785e-45]
+x position: 5
+y position: 1
+time_robot_predict_mean: [0.]
 time_human_predict_mean: [0.]
 died 
-
-
+Robot 
+5.10, 12.75, 11.76
 4
 x position: 16
-y position: 3
-time_robot_predict_mean: [1.12572697e-48]
-time_human_predict_mean: [0.]
-died 
-
-
-5
-x position: 7
-y position: 5
-time_robot_predict_mean: [3.06545342e-10]
-time_human_predict_mean: [0.]
-died 
-
-
-6
-x position: 11
-y position: 4
-time_robot_predict_mean: [1.28558852e-22]
-time_human_predict_mean: [0.]
-died 
-
-
-7
-x position: 15
 y position: 1
-time_robot_predict_mean: [1.649271e-41]
-time_human_predict_mean: [4.6847603]
+time_robot_predict_mean: [0.]
+time_human_predict_mean: [0.01]
 died 
-
-
-8
-x position: 13
+Robot 
+16.03, 40.08, 40.33
+5
+x position: 4
 y position: 2
-time_robot_predict_mean: [1.95794872e-30]
+time_robot_predict_mean: [9.71]
 time_human_predict_mean: [0.]
 died 
-
-
-9
+Human 
+16.12, 16.12, 16.17
+6
+x position: 12
+y position: 5
+time_robot_predict_mean: [32.81]
+time_human_predict_mean: [0.]
+died 
+Human 
+9.43, 9.43, 9.23
+7
 x position: 4
 y position: 5
-time_robot_predict_mean: [0.0002236]
-time_human_predict_mean: [0.]
-died 
-
-
-10
-x position: 8
-y position: 0
-time_robot_predict_mean: [8.33276632e-10]
-time_human_predict_mean: [4.40130744e-10]
-died 
-
-
-11
-x position: 2
-y position: 1
-time_robot_predict_mean: [36.39183958]
-time_human_predict_mean: [0.38665324]
+time_robot_predict_mean: [11.27]
+time_human_predict_mean: [0.18]
 Human 
-18.03, 18.03, 17.86
-
+16.76, 16.76, 16.54
+8
+x position: 16
+y position: 5
+time_robot_predict_mean: [42.7]
+time_human_predict_mean: [0.02]
+Human 
+6.40, 6.40, 7.16
+9
+x position: 19
+y position: 3
+time_robot_predict_mean: [47.82]
+time_human_predict_mean: [1.31]
+Human 
+3.16, 3.16, 2.76
+10
+x position: 4
+y position: 3
+time_robot_predict_mean: [10.23]
+time_human_predict_mean: [16.38]
+Robot 
+5.00, 12.50, 12.42
+11
+x position: 17
+y position: 4
+time_robot_predict_mean: [44.53]
+time_human_predict_mean: [5.33]
+Human 
+5.00, 5.00, 5.55
 12
 x position: 0
-y position: 2
-time_robot_predict_mean: [22.07276647]
-time_human_predict_mean: [19.46595819]
-Human 
-20.10, 20.10, 20.60
-
+y position: 1
+time_robot_predict_mean: [4.38]
+time_human_predict_mean: [19.36]
+Robot 
+1.00, 2.50, 2.57
 13
-x position: 2
-y position: 4
-time_robot_predict_mean: [0.40427682]
-time_human_predict_mean: [17.90869486]
-Robot 
-4.47, 11.18, 10.88
-
-14
-x position: 19
-y position: 2
-time_robot_predict_mean: [2.58530656e-63]
-time_human_predict_mean: [3.73779044]
-died 
-
-
-15
-x position: 1
-y position: 5
-time_robot_predict_mean: [4.00275644]
-time_human_predict_mean: [19.29840412]
-Robot 
-5.10, 12.75, 12.45
-
-16
-x position: 1
-y position: 5
-time_robot_predict_mean: [12.45025859]
-time_human_predict_mean: [19.29840412]
-Robot 
-5.10, 12.75, 12.63
-
-17
-x position: 6
-y position: 5
-time_robot_predict_mean: [0.00151164]
-time_human_predict_mean: [12.49119609]
-died 
-
-
-18
-x position: 16
-y position: 0
-time_robot_predict_mean: [6.68398051e-46]
-time_human_predict_mean: [4.31681014]
-died 
-
-
-19
-x position: 20
-y position: 0
-time_robot_predict_mean: [1.07198407e-73]
-time_human_predict_mean: [3.64808544]
-died 
-
-
-20
-x position: 10
-y position: 2
-time_robot_predict_mean: [1.24236083e-14]
-time_human_predict_mean: [7.99581888]
-died 
-
-
-21
-x position: 8
-y position: 2
-time_robot_predict_mean: [1.4942856e-08]
-time_human_predict_mean: [10.04585895]
-died 
-
-
-22
-x position: 3
-y position: 0
-time_robot_predict_mean: [0.00147983]
-time_human_predict_mean: [16.45358075]
-died 
-
-
-23
-x position: 14
-y position: 4
-time_robot_predict_mean: [3.89985889e-31]
-time_human_predict_mean: [5.168746]
-died 
-
-
-24
 x position: 15
-y position: 0
-time_robot_predict_mean: [4.87540487e-40]
-time_human_predict_mean: [4.67372154]
-died 
-
-
-25
-x position: 11
+y position: 2
+time_robot_predict_mean: [38.39]
+time_human_predict_mean: [4.71]
+Human 
+5.39, 5.39, 5.43
+14
+x position: 8
+y position: 4
+time_robot_predict_mean: [22.32]
+time_human_predict_mean: [12.52]
+Human 
+12.65, 12.65, 12.74
+15
+x position: 12
+y position: 5
+time_robot_predict_mean: [32.85]
+time_human_predict_mean: [9.23]
+Human 
+9.43, 9.43, 9.03
+16
+x position: 6
 y position: 3
-time_robot_predict_mean: [1.13288643e-17]
-time_human_predict_mean: [7.13635573]
-died 
-
-
-26
-x position: 4
-y position: 0
-time_robot_predict_mean: [0.00032949]
-time_human_predict_mean: [15.07273871]
-died 
-
-
-27
+time_robot_predict_mean: [16.6]
+time_human_predict_mean: [16.13]
+Human 
+14.32, 14.32, 13.88
+17
+x position: 17
+y position: 4
+time_robot_predict_mean: [44.44]
+time_human_predict_mean: [5.55]
+Human 
+5.00, 5.00, 4.34
+18
 x position: 7
 y position: 5
-time_robot_predict_mean: [1.65344434e-05]
-time_human_predict_mean: [11.24942915]
-died 
-
-
-28
+time_robot_predict_mean: [21.16]
+time_human_predict_mean: [5.46]
+Human 
+13.93, 13.93, 12.47
+19
+x position: 17
+y position: 4
+time_robot_predict_mean: [44.44]
+time_human_predict_mean: [4.94]
+Human 
+5.00, 5.00, 6.62
+20
+x position: 16
+y position: 5
+time_robot_predict_mean: [42.49]
+time_human_predict_mean: [7.16]
+Human 
+6.40, 6.40, 6.07
+21
+x position: 9
+y position: 2
+time_robot_predict_mean: [22.56]
+time_human_predict_mean: [0.81]
+Human 
+11.18, 11.18, 11.27
+22
+x position: 7
+y position: 0
+time_robot_predict_mean: [15.12]
+time_human_predict_mean: [0.4]
+Human 
+13.00, 13.00, 12.84
+23
+x position: 7
+y position: 5
+time_robot_predict_mean: [21.16]
+time_human_predict_mean: [12.47]
+Human 
+13.93, 13.93, 13.12
+24
+x position: 3
+y position: 2
+time_robot_predict_mean: [9.09]
+time_human_predict_mean: [9.33]
+Human 
+17.12, 17.12, 16.97
+25
+x position: 14
+y position: 3
+time_robot_predict_mean: [36.47]
+time_human_predict_mean: [2.25]
+Human 
+6.71, 6.71, 6.62
+26
 x position: 16
 y position: 0
-time_robot_predict_mean: [6.68398051e-46]
-time_human_predict_mean: [4.31681014]
-died 
-
-
-29
-x position: 19
-y position: 0
-time_robot_predict_mean: [4.26915343e-66]
-time_human_predict_mean: [3.72196046]
-died 
-
-
-30
-x position: 6
-y position: 3
-time_robot_predict_mean: [0.00147983]
-time_human_predict_mean: [12.465249]
-died 
-
-
-31
-x position: 14
-y position: 5
-time_robot_predict_mean: [2.3653965e-31]
-time_human_predict_mean: [5.17848357]
-died 
-
-
-32
-x position: 0
-y position: 3
-time_robot_predict_mean: [1.4054237]
-time_human_predict_mean: [20.61835604]
-Robot 
-3.00, 7.50, 7.64
-
-33
-x position: 14
-y position: 5
-time_robot_predict_mean: [19.22845474]
-time_human_predict_mean: [5.17848357]
+time_robot_predict_mean: [39.61]
+time_human_predict_mean: [0.29]
 Human 
-7.81, 7.81, 7.77
-
-34
+4.00, 4.00, 3.81
+27
 x position: 4
 y position: 3
-time_robot_predict_mean: [9.74519137]
-time_human_predict_mean: [15.43020682]
-Robot 
-5.00, 12.50, 12.57
-
-35
-x position: 14
-y position: 3
-time_robot_predict_mean: [64.524782]
-time_human_predict_mean: [6.48759384]
+time_robot_predict_mean: [12.42]
+time_human_predict_mean: [12.47]
 Human 
-6.71, 6.71, 6.73
-
-36
-x position: 14
-y position: 2
-time_robot_predict_mean: [65.57242042]
-time_human_predict_mean: [6.19881308]
-Human 
-6.32, 6.32, 5.79
-
-37
-x position: 17
-y position: 3
-time_robot_predict_mean: [90.85890192]
-time_human_predict_mean: [7.56065894]
-Human 
-4.24, 4.24, 3.68
-
-38
-x position: 11
-y position: 0
-time_robot_predict_mean: [44.85041546]
-time_human_predict_mean: [0.71619616]
-Human 
-9.00, 9.00, 8.75
-
-39
-x position: 17
-y position: 4
-time_robot_predict_mean: [89.35480626]
-time_human_predict_mean: [3.67864898]
-Human 
-5.00, 5.00, 5.48
-
-40
-x position: 2
-y position: 0
-time_robot_predict_mean: [4.57358166]
-time_human_predict_mean: [17.77340378]
-Robot 
-2.00, 5.00, 4.20
-
-41
-x position: 13
-y position: 3
-time_robot_predict_mean: [20.88769107]
-time_human_predict_mean: [7.55466824]
-Human 
-7.62, 7.62, 7.36
-
-42
-x position: 9
-y position: 0
-time_robot_predict_mean: [21.78009514]
-time_human_predict_mean: [9.95727535]
-Human 
-11.00, 11.00, 10.93
-
-43
-x position: 13
-y position: 4
-time_robot_predict_mean: [20.28999363]
-time_human_predict_mean: [8.06581699]
-Human 
-8.06, 8.06, 7.81
-
-44
-x position: 20
-y position: 1
-time_robot_predict_mean: [5.87263879]
-time_human_predict_mean: [0.59621457]
-Human 
-1.00, 1.00, 0.80
-
-45
-x position: 14
-y position: 2
-time_robot_predict_mean: [19.13558537]
-time_human_predict_mean: [5.78607868]
-Human 
-6.32, 6.32, 6.28
-
-46
+16.28, 16.28, 15.66
+28
 x position: 8
-y position: 3
-time_robot_predict_mean: [21.51606249]
-time_human_predict_mean: [0.]
-died 
-
-
-47
-x position: 6
+y position: 5
+time_robot_predict_mean: [23.38]
+time_human_predict_mean: [10.34]
+Human 
+13.00, 13.00, 13.77
+29
+x position: 14
+y position: 4
+time_robot_predict_mean: [37.13]
+time_human_predict_mean: [2.88]
+Human 
+7.21, 7.21, 6.52
+30
+x position: 3
 y position: 1
-time_robot_predict_mean: [16.12064417]
-time_human_predict_mean: [0.]
-died 
-
-
-48
+time_robot_predict_mean: [7.64]
+time_human_predict_mean: [0.02]
+Human 
+17.03, 17.03, 17.17
+31
+x position: 3
+y position: 1
+time_robot_predict_mean: [7.64]
+time_human_predict_mean: [17.17]
+Robot 
+3.16, 7.91, 7.82
+32
 x position: 17
 y position: 2
-time_robot_predict_mean: [12.04048857]
-time_human_predict_mean: [0.]
-died 
-
-
-49
-x position: 0
-y position: 4
-time_robot_predict_mean: [10.17109259]
-time_human_predict_mean: [0.]
-died 
-
-
-50
-x position: 8
-y position: 4
-time_robot_predict_mean: [21.34864056]
-time_human_predict_mean: [0.]
-died 
-
-
-51
-x position: 2
-y position: 4
-time_robot_predict_mean: [10.88060031]
-time_human_predict_mean: [0.]
-died 
-
-
-52
+time_robot_predict_mean: [43.48]
+time_human_predict_mean: [3.44]
+Human 
+3.61, 3.61, 4.04
+33
 x position: 18
+y position: 0
+time_robot_predict_mean: [44.69]
+time_human_predict_mean: [0.]
+died 
+Human 
+2.00, 2.00, 2.83
+34
+x position: 13
+y position: 5
+time_robot_predict_mean: [35.57]
+time_human_predict_mean: [6.82]
+Human 
+8.60, 8.60, 8.90
+35
+x position: 20
 y position: 3
-time_robot_predict_mean: [9.68547776]
-time_human_predict_mean: [0.]
-died 
-
-
-53
-x position: 9
+time_robot_predict_mean: [49.92]
+time_human_predict_mean: [1.42]
+Human 
+3.00, 3.00, 2.84
+36
+x position: 13
+y position: 1
+time_robot_predict_mean: [32.06]
+time_human_predict_mean: [0.63]
+Human 
+7.07, 7.07, 7.11
+37
+x position: 20
 y position: 2
-time_robot_predict_mean: [22.82573007]
-time_human_predict_mean: [0.]
-died 
-
-
-54
+time_robot_predict_mean: [49.62]
+time_human_predict_mean: [1.35]
+Human 
+2.00, 2.00, 1.58
+38
+x position: 8
+y position: 4
+time_robot_predict_mean: [22.24]
+time_human_predict_mean: [12.74]
+Human 
+12.65, 12.65, 13.05
+39
+x position: 6
+y position: 2
+time_robot_predict_mean: [15.22]
+time_human_predict_mean: [9.18]
+Human 
+14.14, 14.14, 14.60
+40
+x position: 12
+y position: 5
+time_robot_predict_mean: [33.06]
+time_human_predict_mean: [9.13]
+Human 
+9.43, 9.43, 9.03
+41
+x position: 17
+y position: 2
+time_robot_predict_mean: [43.48]
+time_human_predict_mean: [4.04]
+Human 
+3.61, 3.61, 4.16
+42
+x position: 12
+y position: 3
+time_robot_predict_mean: [31.23]
+time_human_predict_mean: [2.44]
+Human 
+8.54, 8.54, 8.97
+43
+x position: 12
+y position: 2
+time_robot_predict_mean: [30.25]
+time_human_predict_mean: [6.84]
+Human 
+8.25, 8.25, 8.39
+44
 x position: 14
 y position: 2
-time_robot_predict_mean: [19.13558537]
-time_human_predict_mean: [6.03107655]
+time_robot_predict_mean: [35.73]
+time_human_predict_mean: [0.]
+died 
 Human 
-6.32, 6.32, 5.43
-
+6.32, 6.32, 6.80
+45
+x position: 7
+y position: 5
+time_robot_predict_mean: [21.17]
+time_human_predict_mean: [12.8]
+Human 
+13.93, 13.93, 13.65
+46
+x position: 5
+y position: 2
+time_robot_predict_mean: [13.1]
+time_human_predict_mean: [13.53]
+Robot 
+5.39, 13.46, 14.09
+47
+x position: 8
+y position: 3
+time_robot_predict_mean: [22.19]
+time_human_predict_mean: [9.87]
+Human 
+12.37, 12.37, 12.65
+48
+x position: 4
+y position: 5
+time_robot_predict_mean: [8.76]
+time_human_predict_mean: [16.54]
+Robot 
+6.40, 16.01, 16.05
+49
+x position: 3
+y position: 4
+time_robot_predict_mean: [8.93]
+time_human_predict_mean: [9.61]
+Robot 
+5.00, 12.50, 12.84
+50
+x position: 3
+y position: 1
+time_robot_predict_mean: [7.82]
+time_human_predict_mean: [17.17]
+Robot 
+3.16, 7.91, 7.68
+51
+x position: 0
+y position: 1
+time_robot_predict_mean: [2.57]
+time_human_predict_mean: [0.16]
+Human 
+20.02, 20.02, 19.78
+52
+x position: 15
+y position: 5
+time_robot_predict_mean: [0.]
+time_human_predict_mean: [0.]
+died 
+Human 
+7.07, 7.07, 6.91
+53
+x position: 2
+y position: 5
+time_robot_predict_mean: [0.]
+time_human_predict_mean: [0.]
+died 
+Robot 
+5.39, 13.46, 14.13
+54
+x position: 17
+y position: 1
+time_robot_predict_mean: [39.94]
+time_human_predict_mean: [3.4]
+Human 
+3.16, 3.16, 3.66
 55
 x position: 2
-y position: 4
-time_robot_predict_mean: [10.88060031]
-time_human_predict_mean: [0.56066114]
-Human 
-18.44, 18.44, 18.36
-
+y position: 1
+time_robot_predict_mean: [6.51]
+time_human_predict_mean: [12.38]
+Robot 
+2.24, 5.59, 5.50
 56
-x position: 14
-y position: 3
-time_robot_predict_mean: [18.94135293]
-time_human_predict_mean: [6.72702931]
+x position: 6
+y position: 5
+time_robot_predict_mean: [17.8]
+time_human_predict_mean: [8.31]
 Human 
-6.71, 6.71, 5.80
-
+14.87, 14.87, 14.91
 57
-x position: 8
-y position: 0
-time_robot_predict_mean: [20.2395467]
-time_human_predict_mean: [8.40797152]
-Human 
-12.00, 12.00, 12.45
-
+x position: 4
+y position: 5
+time_robot_predict_mean: [16.05]
+time_human_predict_mean: [16.54]
+Robot 
+6.40, 16.01, 15.85
 58
 x position: 0
-y position: 2
-time_robot_predict_mean: [5.27139888]
-time_human_predict_mean: [20.60339432]
+y position: 3
+time_robot_predict_mean: [0.]
+time_human_predict_mean: [2.29]
+died 
 Robot 
-2.00, 5.00, 5.32
-
+3.00, 7.50, 8.37
 59
-x position: 19
-y position: 0
-time_robot_predict_mean: [115.86471971]
-time_human_predict_mean: [27.76310449]
-Human 
-[-0.02336734]altered 
-1.00, 1.00, 0.10
-
-60
-x position: 11
-y position: 1
-time_robot_predict_mean: [44.10293093]
-time_human_predict_mean: [5.40635332]
-Human 
-9.06, 9.06, 8.80
-
-61
 x position: 15
-y position: 3
-time_robot_predict_mean: [70.80151637]
-time_human_predict_mean: [3.23837685]
+y position: 1
+time_robot_predict_mean: [24.46]
+time_human_predict_mean: [4.03]
 Human 
-5.83, 5.83, 5.64
-
+5.10, 5.10, 5.40
+60
+x position: 9
+y position: 0
+time_robot_predict_mean: [0.]
+time_human_predict_mean: [0.]
+died 
+Human 
+11.00, 11.00, 10.19
+61
+x position: 12
+y position: 1
+time_robot_predict_mean: [0.21]
+time_human_predict_mean: [5.63]
+Robot 
+12.04, 30.10, 29.68
 62
-x position: 8
-y position: 2
-time_robot_predict_mean: [26.33112344]
-time_human_predict_mean: [1.71523774]
-Human 
-12.17, 12.17, 12.17
-
-63
-x position: 12
-y position: 0
-time_robot_predict_mean: [52.36457595]
-time_human_predict_mean: [7.94638028]
-Human 
-8.00, 8.00, 8.76
-
-64
-x position: 17
-y position: 1
-time_robot_predict_mean: [92.84127521]
-time_human_predict_mean: [0.5644659]
-Human 
-3.16, 3.16, 3.63
-
-65
-x position: 4
-y position: 1
-time_robot_predict_mean: [10.36668212]
-time_human_predict_mean: [1.63621296]
-Human 
-16.03, 16.03, 15.90
-
-66
-x position: 0
-y position: 0
-time_robot_predict_mean: [1.14815277]
-time_human_predict_mean: [11.91475291]
-Robot 
-[-0.47518197]altered 
-0.00, 0.00, 0.10
-
-67
-x position: 0
-y position: 1
-time_robot_predict_mean: [2.7350107]
-time_human_predict_mean: [17.64960536]
-Robot 
-1.00, 2.50, 2.01
-
-68
-x position: 4
-y position: 2
-time_robot_predict_mean: [11.67815024]
-time_human_predict_mean: [9.92366901]
-Human 
-16.12, 16.12, 16.01
-
-69
-x position: 17
+x position: 11
 y position: 5
-time_robot_predict_mean: [2.45172483e-10]
-time_human_predict_mean: [3.38616834]
-died 
-
-
-70
-x position: 16
-y position: 0
-time_robot_predict_mean: [4.31336423e-09]
-time_human_predict_mean: [2.25502139]
-died 
-
-
-71
-x position: 12
-y position: 3
-time_robot_predict_mean: [0.00149021]
-time_human_predict_mean: [4.82109657]
-died 
-
-
-72
-x position: 3
-y position: 1
-time_robot_predict_mean: [8.16442548]
-time_human_predict_mean: [15.6557848]
-Robot 
-3.16, 7.91, 8.31
-
-73
-x position: 13
-y position: 0
-time_robot_predict_mean: [1.74881735e-06]
-time_human_predict_mean: [4.6944087]
-died 
-
-
-74
-x position: 5
-y position: 2
-time_robot_predict_mean: [9.38311197]
-time_human_predict_mean: [9.2711631]
+time_robot_predict_mean: [24.88]
+time_human_predict_mean: [4.67]
 Human 
-15.13, 15.13, 15.21
-
+10.30, 10.30, 10.02
+63
+x position: 17
+y position: 0
+time_robot_predict_mean: [30.65]
+time_human_predict_mean: [3.28]
+Human 
+3.00, 3.00, 2.62
+64
+x position: 10
+y position: 3
+time_robot_predict_mean: [29.52]
+time_human_predict_mean: [5.59]
+Human 
+10.44, 10.44, 11.83
+65
+x position: 17
+y position: 3
+time_robot_predict_mean: [48.96]
+time_human_predict_mean: [4.51]
+Human 
+4.24, 4.24, 4.76
+66
+x position: 20
+y position: 3
+time_robot_predict_mean: [30.69]
+time_human_predict_mean: [2.84]
+Human 
+3.00, 3.00, 3.19
+67
+x position: 19
+y position: 2
+time_robot_predict_mean: [33.78]
+time_human_predict_mean: [1.3]
+Human 
+2.24, 2.24, 2.22
+68
+x position: 17
+y position: 4
+time_robot_predict_mean: [50.01]
+time_human_predict_mean: [5.5]
+Human 
+5.00, 5.00, 5.71
+69
+x position: 9
+y position: 1
+time_robot_predict_mean: [19.75]
+time_human_predict_mean: [9.66]
+Human 
+11.05, 11.05, 11.64
+70
+x position: 5
+y position: 1
+time_robot_predict_mean: [11.76]
+time_human_predict_mean: [8.12]
+Human 
+15.03, 15.03, 15.32
+71
+x position: 18
+y position: 4
+time_robot_predict_mean: [48.6]
+time_human_predict_mean: [3.19]
+Human 
+4.47, 4.47, 4.62
+72
+x position: 14
+y position: 2
+time_robot_predict_mean: [40.4]
+time_human_predict_mean: [6.8]
+Human 
+6.32, 6.32, 6.96
+73
+x position: 1
+y position: 0
+time_robot_predict_mean: [2.03]
+time_human_predict_mean: [8.25]
+Robot 
+1.00, 2.50, 2.96
+74
+x position: 20
+y position: 0
+time_robot_predict_mean: [22.51]
+time_human_predict_mean: [0.37]
+Human 
+0.00, 0.00, 0.98
 75
 x position: 12
-y position: 2
-time_robot_predict_mean: [0.00013862]
-time_human_predict_mean: [0.]
-died 
-
-
+y position: 0
+time_robot_predict_mean: [25.05]
+time_human_predict_mean: [2.38]
+Human 
+8.00, 8.00, 8.36
 76
-x position: 5
-y position: 2
-time_robot_predict_mean: [9.38311197]
-time_human_predict_mean: [15.2126841]
-Robot 
-5.39, 13.46, 13.38
-
-77
-x position: 12
-y position: 4
-time_robot_predict_mean: [3.09544076e-11]
-time_human_predict_mean: [0.]
-died 
-
-
-78
-x position: 20
-y position: 5
-time_robot_predict_mean: [1.53540176e-50]
-time_human_predict_mean: [0.]
-died 
-
-
-79
-x position: 11
-y position: 1
-time_robot_predict_mean: [9.21177462e-08]
-time_human_predict_mean: [8.79799063]
-died 
-
-
-80
-x position: 2
-y position: 1
-time_robot_predict_mean: [5.38885531]
-time_human_predict_mean: [17.86259623]
-Robot 
-2.24, 5.59, 5.08
-
-81
-x position: 11
-y position: 1
-time_robot_predict_mean: [9.19454448e-08]
-time_human_predict_mean: [8.79799063]
-died 
-
-
-82
 x position: 8
 y position: 4
-time_robot_predict_mean: [0.01656396]
+time_robot_predict_mean: [29.4]
+time_human_predict_mean: [12.89]
+Human 
+12.65, 12.65, 12.58
+77
+x position: 1
+y position: 5
+time_robot_predict_mean: [12.84]
+time_human_predict_mean: [0.18]
+Human 
+19.65, 19.65, 19.54
+78
+x position: 11
+y position: 1
+time_robot_predict_mean: [27.87]
+time_human_predict_mean: [6.24]
+Human 
+9.06, 9.06, 8.30
+79
+x position: 13
+y position: 5
+time_robot_predict_mean: [27.54]
+time_human_predict_mean: [8.9]
+Human 
+8.60, 8.60, 8.50
+80
+x position: 10
+y position: 5
+time_robot_predict_mean: [26.36]
 time_human_predict_mean: [0.]
 died 
-
-
-83
-x position: 2
-y position: 3
-time_robot_predict_mean: [6.95159846]
-time_human_predict_mean: [0.]
-died 
-
-
-84
-x position: 14
-y position: 2
-time_robot_predict_mean: [2.56419774e-17]
-time_human_predict_mean: [5.83089434]
-died 
-
-
-85
-x position: 6
-y position: 3
-time_robot_predict_mean: [4.73776032]
-time_human_predict_mean: [0.]
-died 
-
-
-86
-x position: 9
-y position: 3
-time_robot_predict_mean: [0.00205407]
-time_human_predict_mean: [0.]
-died 
-
-
-87
+Human 
+11.18, 11.18, 12.03
+81
 x position: 4
 y position: 1
-time_robot_predict_mean: [8.68929489]
-time_human_predict_mean: [15.89956541]
+time_robot_predict_mean: [9.75]
+time_human_predict_mean: [15.71]
 Robot 
-4.12, 10.31, 10.71
-
-88
-x position: 0
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-89
-x position: 10
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-90
-x position: 6
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-91
-x position: 15
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [4.6847603]
-died 
-
-
-92
-x position: 12
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-93
-x position: 20
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-94
-x position: 14
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-95
-x position: 16
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-96
-x position: 16
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-97
-x position: 16
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-98
-x position: 14
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-99
-x position: 16
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-100
-x position: 18
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-101
-x position: 2
-y position: 0
-time_robot_predict_mean: [4.19949709]
-time_human_predict_mean: [0.]
-died 
-
-
-102
-x position: 20
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-103
-x position: 13
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [7.35784406]
-died 
-
-
-104
-x position: 16
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-105
+4.12, 10.31, 10.37
+82
 x position: 7
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-106
-x position: 6
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-107
-x position: 19
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-108
-x position: 13
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-109
-x position: 10
 y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-110
-x position: 13
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-111
-x position: 15
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [5.63787276]
-died 
-
-
-112
-x position: 14
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-113
-x position: 0
-y position: 2
-time_robot_predict_mean: [5.32230204]
-time_human_predict_mean: [20.60319287]
+time_robot_predict_mean: [3.17]
+time_human_predict_mean: [12.84]
 Robot 
-2.00, 5.00, 6.26
-
-114
+7.00, 17.50, 16.76
+83
+x position: 8
+y position: 4
+time_robot_predict_mean: [18.1]
+time_human_predict_mean: [12.79]
+Human 
+12.65, 12.65, 12.44
+84
+x position: 8
+y position: 1
+time_robot_predict_mean: [21.86]
+time_human_predict_mean: [13.65]
+Human 
+12.04, 12.04, 11.56
+85
+x position: 16
+y position: 2
+time_robot_predict_mean: [42.72]
+time_human_predict_mean: [0.]
+died 
+Human 
+4.47, 4.47, 5.50
+86
+x position: 16
+y position: 2
+time_robot_predict_mean: [42.72]
+time_human_predict_mean: [5.5]
+Human 
+4.47, 4.47, 4.53
+87
+x position: 17
+y position: 3
+time_robot_predict_mean: [48.57]
+time_human_predict_mean: [4.76]
+Human 
+4.24, 4.24, 3.85
+88
+x position: 4
+y position: 4
+time_robot_predict_mean: [14.2]
+time_human_predict_mean: [0.]
+died 
+Human 
+16.49, 16.49, 16.56
+89
+x position: 13
+y position: 5
+time_robot_predict_mean: [19.15]
+time_human_predict_mean: [8.7]
+Human 
+8.60, 8.60, 8.79
+90
+x position: 10
+y position: 2
+time_robot_predict_mean: [26.55]
+time_human_predict_mean: [9.97]
+Human 
+10.20, 10.20, 9.92
+91
+x position: 13
+y position: 1
+time_robot_predict_mean: [27.38]
+time_human_predict_mean: [7.11]
+Human 
+7.07, 7.07, 6.12
+92
+x position: 0
+y position: 1
+time_robot_predict_mean: [2.57]
+time_human_predict_mean: [19.78]
+Robot 
+1.00, 2.50, 3.65
+93
+x position: 5
+y position: 1
+time_robot_predict_mean: [11.76]
+time_human_predict_mean: [15.32]
+Robot 
+5.10, 12.75, 11.80
+94
+x position: 6
+y position: 0
+time_robot_predict_mean: [11.93]
+time_human_predict_mean: [10.96]
+Human 
+14.00, 14.00, 13.92
+95
+x position: 9
+y position: 5
+time_robot_predict_mean: [2.43]
+time_human_predict_mean: [2.71]
+Robot 
+10.30, 25.74, 25.74
+96
+x position: 4
+y position: 1
+time_robot_predict_mean: [10.37]
+time_human_predict_mean: [19.59]
+Robot 
+4.12, 10.31, 10.14
+97
+x position: 17
+y position: 1
+time_robot_predict_mean: [24.47]
+time_human_predict_mean: [3.66]
+Human 
+3.16, 3.16, 2.56
+98
 x position: 17
 y position: 5
-time_robot_predict_mean: [5.0905113e-33]
-time_human_predict_mean: [0.]
-died 
-
-
-115
+time_robot_predict_mean: [28.52]
+time_human_predict_mean: [4.88]
+Human 
+5.83, 5.83, 6.49
+99
 x position: 7
-y position: 1
-time_robot_predict_mean: [0.76196845]
-time_human_predict_mean: [0.]
-died 
-
-
-116
-x position: 8
-y position: 0
-time_robot_predict_mean: [0.01375304]
-time_human_predict_mean: [12.44830228]
-Robot 
-8.00, 20.00, 19.16
-
-117
-x position: 8
 y position: 3
-time_robot_predict_mean: [0.2727705]
-time_human_predict_mean: [0.]
+time_robot_predict_mean: [1.47]
+time_human_predict_mean: [12.51]
+Robot 
+7.62, 19.04, 18.89
+100
+x position: 16
+y position: 1
+time_robot_predict_mean: [40.33]
+time_human_predict_mean: [4.85]
+Human 
+4.12, 4.12, 4.29
+101
+x position: 10
+y position: 3
+time_robot_predict_mean: [12.97]
+time_human_predict_mean: [11.83]
+Human 
+10.44, 10.44, 10.16
+102
+x position: 11
+y position: 0
+time_robot_predict_mean: [11.01]
+time_human_predict_mean: [7.09]
+Human 
+9.00, 9.00, 8.06
+103
+x position: 2
+y position: 1
+time_robot_predict_mean: [5.5]
+time_human_predict_mean: [12.35]
+Robot 
+2.24, 5.59, 6.29
+104
+x position: 12
+y position: 5
+time_robot_predict_mean: [29.66]
+time_human_predict_mean: [9.1]
+Human 
+9.43, 9.43, 10.23
+105
+x position: 20
+y position: 2
+time_robot_predict_mean: [0.]
+time_human_predict_mean: [1.58]
 died 
-
-
-118
-x position: 7
-y position: 4
-time_robot_predict_mean: [0.21420695]
-time_human_predict_mean: [0.]
-died 
-
-
-119
+Robot 
+20.10, 50.25, 49.96
+106
+x position: 17
+y position: 0
+time_robot_predict_mean: [15.89]
+time_human_predict_mean: [2.62]
+Human 
+3.00, 3.00, 3.10
+107
 x position: 15
-y position: 4
-time_robot_predict_mean: [1.47084327e-13]
-time_human_predict_mean: [0.]
+y position: 5
+time_robot_predict_mean: [0.37]
+time_human_predict_mean: [6.91]
+Robot 
+15.81, 39.53, 40.37
+108
+x position: 6
+y position: 5
+time_robot_predict_mean: [3.42]
+time_human_predict_mean: [14.91]
+Robot 
+7.81, 19.53, 19.70
+109
+x position: 5
+y position: 3
+time_robot_predict_mean: [13.11]
+time_human_predict_mean: [14.47]
+Robot 
+5.83, 14.58, 15.25
+110
+x position: 8
+y position: 2
+time_robot_predict_mean: [0.]
+time_human_predict_mean: [11.44]
 died 
-
-
-120
+Robot 
+8.25, 20.62, 20.39
+111
+x position: 6
+y position: 5
+time_robot_predict_mean: [19.7]
+time_human_predict_mean: [14.91]
+Human 
+14.87, 14.87, 14.91
+112
+x position: 7
+y position: 3
+time_robot_predict_mean: [18.89]
+time_human_predict_mean: [12.58]
+Human 
+13.34, 13.34, 12.93
+113
+x position: 10
+y position: 2
+time_robot_predict_mean: [6.97]
+time_human_predict_mean: [9.92]
+Robot 
+10.20, 25.50, 25.48
+114
+x position: 18
+y position: 0
+time_robot_predict_mean: [4.15]
+time_human_predict_mean: [2.83]
+Human 
+2.00, 2.00, 1.97
+115
+x position: 10
+y position: 4
+time_robot_predict_mean: [27.1]
+time_human_predict_mean: [11.5]
+Human 
+10.77, 10.77, 10.54
+116
+x position: 12
+y position: 5
+time_robot_predict_mean: [10.23]
+time_human_predict_mean: [9.38]
+Robot 
+13.00, 32.50, 31.72
+117
+x position: 17
+y position: 2
+time_robot_predict_mean: [15.75]
+time_human_predict_mean: [4.1]
+Human 
+3.61, 3.61, 4.06
+118
 x position: 5
 y position: 5
-time_robot_predict_mean: [0.80264452]
-time_human_predict_mean: [0.]
-died 
-
-
+time_robot_predict_mean: [17.88]
+time_human_predict_mean: [16.36]
+Human 
+15.81, 15.81, 15.65
+119
+x position: 10
+y position: 1
+time_robot_predict_mean: [17.07]
+time_human_predict_mean: [9.12]
+Human 
+10.05, 10.05, 10.50
+120
+x position: 0
+y position: 0
+time_robot_predict_mean: [1.76]
+time_human_predict_mean: [11.98]
+Robot 
+0.00, 0.00, 0.83
 121
 x position: 11
-y position: 1
-time_robot_predict_mean: [0.12902234]
-time_human_predict_mean: [8.79799063]
-Robot 
-11.05, 27.61, 28.62
-
-122
-x position: 17
-y position: 1
-time_robot_predict_mean: [4.33956353e-07]
-time_human_predict_mean: [3.62687449]
-died 
-
-
-123
-x position: 4
-y position: 1
-time_robot_predict_mean: [10.71301859]
-time_human_predict_mean: [15.89956541]
-Robot 
-4.12, 10.31, 9.80
-
-124
-x position: 5
-y position: 2
-time_robot_predict_mean: [13.37952811]
-time_human_predict_mean: [15.2126841]
-Robot 
-5.39, 13.46, 14.04
-
-125
-x position: 13
-y position: 1
-time_robot_predict_mean: [14.22694843]
-time_human_predict_mean: [0.]
-died 
-
-
-126
-x position: 15
-y position: 4
-time_robot_predict_mean: [1.74670566]
-time_human_predict_mean: [0.]
-died 
-
-
-127
-x position: 4
-y position: 1
-time_robot_predict_mean: [10.25555462]
-time_human_predict_mean: [15.89956541]
-Robot 
-4.12, 10.31, 9.05
-
-128
-x position: 18
-y position: 4
-time_robot_predict_mean: [1.53551485e-14]
-time_human_predict_mean: [0.]
-died 
-
-
-129
-x position: 11
-y position: 4
-time_robot_predict_mean: [0.12206358]
-time_human_predict_mean: [0.]
-died 
-
-
-130
-x position: 9
 y position: 5
-time_robot_predict_mean: [0.00016058]
-time_human_predict_mean: [0.]
-died 
-
-
-131
-x position: 5
-y position: 2
-time_robot_predict_mean: [13.70810672]
-time_human_predict_mean: [15.2126841]
-Robot 
-5.39, 13.46, 13.34
-
-132
-x position: 17
-y position: 4
-time_robot_predict_mean: [4.82082069e-09]
-time_human_predict_mean: [5.48400268]
-died 
-
-
-133
-x position: 0
-y position: 4
-time_robot_predict_mean: [7.57923524]
-time_human_predict_mean: [0.]
-died 
-
-
-134
-x position: 3
-y position: 0
-time_robot_predict_mean: [5.2358619]
-time_human_predict_mean: [0.]
-died 
-
-
-135
-x position: 14
-y position: 0
-time_robot_predict_mean: [0.19198843]
-time_human_predict_mean: [0.]
-died 
-
-
-136
-x position: 19
-y position: 0
-time_robot_predict_mean: [2.18864921e-13]
-time_human_predict_mean: [0.1]
-died 
-
-
-137
-x position: 8
-y position: 5
-time_robot_predict_mean: [0.00169305]
-time_human_predict_mean: [0.]
-died 
-
-
-138
-x position: 15
-y position: 3
-time_robot_predict_mean: [0.00129361]
-time_human_predict_mean: [5.63787276]
-died 
-
-
-139
-x position: 2
-y position: 4
-time_robot_predict_mean: [10.88062012]
-time_human_predict_mean: [18.36432184]
-Robot 
-4.47, 11.18, 10.28
-
-140
-x position: 15
-y position: 2
 time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
+time_human_predict_mean: [10.02]
 died 
-
-
-141
-x position: 4
+Robot 
+12.08, 30.21, 30.74
+122
+x position: 19
+y position: 4
+time_robot_predict_mean: [21.21]
+time_human_predict_mean: [2.83]
+Human 
+4.12, 4.12, 3.77
+123
+x position: 0
+y position: 1
+time_robot_predict_mean: [3.11]
+time_human_predict_mean: [19.78]
+Robot 
+1.00, 2.50, 2.17
+124
+x position: 8
 y position: 3
-time_robot_predict_mean: [12.56999554]
+time_robot_predict_mean: [18.18]
+time_human_predict_mean: [12.65]
+Human 
+12.37, 12.37, 12.04
+125
+x position: 14
+y position: 2
+time_robot_predict_mean: [5.93]
+time_human_predict_mean: [6.88]
+Robot 
+14.14, 35.36, 34.76
+126
+x position: 2
+y position: 2
+time_robot_predict_mean: [4.53]
+time_human_predict_mean: [10.61]
+Robot 
+2.83, 7.07, 6.93
+127
+x position: 9
+y position: 1
+time_robot_predict_mean: [13.62]
+time_human_predict_mean: [11.64]
+Human 
+11.05, 11.05, 10.54
+128
+x position: 15
+y position: 4
+time_robot_predict_mean: [27.02]
+time_human_predict_mean: [5.56]
+Human 
+6.40, 6.40, 6.71
+129
+x position: 7
+y position: 5
+time_robot_predict_mean: [14.95]
+time_human_predict_mean: [13.08]
+Human 
+13.93, 13.93, 13.82
+130
+x position: 6
+y position: 5
+time_robot_predict_mean: [19.7]
+time_human_predict_mean: [14.91]
+Human 
+14.87, 14.87, 14.88
+131
+x position: 13
+y position: 2
+time_robot_predict_mean: [28.07]
+time_human_predict_mean: [7.86]
+Human 
+7.28, 7.28, 8.21
+132
+x position: 4
+y position: 5
+time_robot_predict_mean: [15.95]
+time_human_predict_mean: [16.54]
+Robot 
+6.40, 16.01, 15.84
+133
+x position: 7
+y position: 4
+time_robot_predict_mean: [16.42]
 time_human_predict_mean: [0.]
 died 
-
-
+Human 
+13.60, 13.60, 13.75
+134
+x position: 14
+y position: 4
+time_robot_predict_mean: [20.6]
+time_human_predict_mean: [6.52]
+Human 
+7.21, 7.21, 7.12
+135
+x position: 11
+y position: 1
+time_robot_predict_mean: [23.36]
+time_human_predict_mean: [8.3]
+Human 
+9.06, 9.06, 8.98
+136
+x position: 17
+y position: 1
+time_robot_predict_mean: [23.53]
+time_human_predict_mean: [3.11]
+Human 
+3.16, 3.16, 3.13
+137
+x position: 7
+y position: 2
+time_robot_predict_mean: [17.85]
+time_human_predict_mean: [12.27]
+Human 
+13.15, 13.15, 13.73
+138
+x position: 17
+y position: 1
+time_robot_predict_mean: [23.53]
+time_human_predict_mean: [3.12]
+Human 
+3.16, 3.16, 2.13
+139
+x position: 6
+y position: 3
+time_robot_predict_mean: [16.29]
+time_human_predict_mean: [13.88]
+Human 
+14.32, 14.32, 14.76
+140
+x position: 16
+y position: 5
+time_robot_predict_mean: [30.25]
+time_human_predict_mean: [6.62]
+Human 
+6.40, 6.40, 5.59
+141
+x position: 10
+y position: 3
+time_robot_predict_mean: [21.9]
+time_human_predict_mean: [10.99]
+Human 
+10.44, 10.44, 10.40
 142
 x position: 16
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
+y position: 2
+time_robot_predict_mean: [27.3]
+time_human_predict_mean: [5.01]
+Human 
+4.47, 4.47, 4.15
 143
-x position: 14
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [7.76632001]
-died 
-
-
+x position: 2
+y position: 3
+time_robot_predict_mean: [7.02]
+time_human_predict_mean: [6.82]
+Human 
+18.25, 18.25, 17.91
 144
-x position: 14
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [6.26073553]
-died 
-
-
+x position: 10
+y position: 4
+time_robot_predict_mean: [24.01]
+time_human_predict_mean: [10.54]
+Human 
+10.77, 10.77, 10.82
 145
-x position: 19
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-146
-x position: 11
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-147
-x position: 0
-y position: 1
-time_robot_predict_mean: [2.01269692]
-time_human_predict_mean: [0.]
-died 
-
-
-148
-x position: 18
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-149
-x position: 1
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [19.22190882]
-died 
-
-
-150
-x position: 6
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-151
 x position: 9
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [10.926038]
-died 
-
-
-152
-x position: 3
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-153
-x position: 1
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-154
-x position: 6
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-155
-x position: 14
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-156
-x position: 5
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-157
-x position: 20
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-158
-x position: 2
 y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-159
-x position: 10
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-160
-x position: 18
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-161
-x position: 13
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-162
-x position: 6
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-163
-x position: 7
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-164
-x position: 10
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-165
-x position: 11
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-166
-x position: 7
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-167
-x position: 17
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-168
-x position: 2
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-169
-x position: 14
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-170
-x position: 20
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-171
+time_robot_predict_mean: [21.45]
+time_human_predict_mean: [11.27]
+Human 
+11.18, 11.18, 11.37
+146
 x position: 15
 y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-172
-x position: 11
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [8.75302362]
-died 
-
-
-173
-x position: 3
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-174
-x position: 4
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-175
-x position: 0
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-176
-x position: 4
-y position: 3
-time_robot_predict_mean: [12.56999554]
-time_human_predict_mean: [0.]
-died 
-
-
-177
-x position: 18
+time_robot_predict_mean: [32.29]
+time_human_predict_mean: [5.43]
+Human 
+5.39, 5.39, 4.87
+147
+x position: 1
 y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-178
+time_robot_predict_mean: [4.45]
+time_human_predict_mean: [14.73]
+Robot 
+1.41, 3.54, 3.35
+148
+x position: 11
+y position: 1
+time_robot_predict_mean: [23.36]
+time_human_predict_mean: [8.64]
+Human 
+9.06, 9.06, 8.32
+149
+x position: 9
+y position: 4
+time_robot_predict_mean: [20.16]
+time_human_predict_mean: [11.41]
+Human 
+11.70, 11.70, 11.39
+150
+x position: 13
+y position: 1
+time_robot_predict_mean: [26.8]
+time_human_predict_mean: [6.62]
+Human 
+7.07, 7.07, 6.82
+151
+x position: 3
+y position: 1
+time_robot_predict_mean: [7.75]
+time_human_predict_mean: [17.17]
+Robot 
+3.16, 7.91, 8.33
+152
+x position: 20
+y position: 3
+time_robot_predict_mean: [31.11]
+time_human_predict_mean: [3.02]
+Human 
+3.00, 3.00, 2.01
+153
+x position: 8
+y position: 0
+time_robot_predict_mean: [11.28]
+time_human_predict_mean: [10.3]
+Human 
+12.00, 12.00, 11.80
+154
+x position: 8
+y position: 5
+time_robot_predict_mean: [17.45]
+time_human_predict_mean: [13.77]
+Human 
+13.00, 13.00, 13.61
+155
+x position: 10
+y position: 4
+time_robot_predict_mean: [24.01]
+time_human_predict_mean: [10.68]
+Human 
+10.77, 10.77, 10.73
+156
+x position: 0
+y position: 1
+time_robot_predict_mean: [2.8]
+time_human_predict_mean: [19.78]
+Robot 
+1.00, 2.50, 2.02
+157
+x position: 16
+y position: 0
+time_robot_predict_mean: [23.53]
+time_human_predict_mean: [3.81]
+Human 
+4.00, 4.00, 3.55
+158
+x position: 17
+y position: 0
+time_robot_predict_mean: [14.06]
+time_human_predict_mean: [2.86]
+Human 
+3.00, 3.00, 3.36
+159
 x position: 20
 y position: 0
-time_robot_predict_mean: [0.]
+time_robot_predict_mean: [6.76]
+time_human_predict_mean: [0.98]
+Human 
+0.00, 0.00, -0.01
+160
+x position: 5
+y position: 3
+time_robot_predict_mean: [15.25]
+time_human_predict_mean: [14.57]
+Human 
+15.30, 15.30, 15.89
+161
+x position: 14
+y position: 1
+time_robot_predict_mean: [26.32]
+time_human_predict_mean: [5.6]
+Human 
+6.08, 6.08, 6.14
+162
+x position: 17
+y position: 2
+time_robot_predict_mean: [15.2]
+time_human_predict_mean: [4.09]
+Human 
+3.61, 3.61, 3.50
+163
+x position: 5
+y position: 0
+time_robot_predict_mean: [6.99]
+time_human_predict_mean: [11.37]
+Robot 
+5.00, 12.50, 12.81
+164
+x position: 6
+y position: 3
+time_robot_predict_mean: [0.95]
+time_human_predict_mean: [14.32]
+Robot 
+6.71, 16.77, 17.74
+165
+x position: 17
+y position: 3
+time_robot_predict_mean: [8.18]
+time_human_predict_mean: [4.31]
+Human 
+4.24, 4.24, 4.61
+166
+x position: 15
+y position: 0
+time_robot_predict_mean: [16.52]
+time_human_predict_mean: [3.77]
+Human 
+5.00, 5.00, 5.38
+167
+x position: 18
+y position: 2
+time_robot_predict_mean: [10.39]
+time_human_predict_mean: [2.32]
+Human 
+2.83, 2.83, 3.01
+168
+x position: 15
+y position: 0
+time_robot_predict_mean: [16.52]
+time_human_predict_mean: [5.38]
+Human 
+5.00, 5.00, 4.72
+169
+x position: 3
+y position: 3
+time_robot_predict_mean: [9.09]
+time_human_predict_mean: [16.09]
+Robot 
+4.24, 10.61, 10.20
+170
+x position: 11
+y position: 3
+time_robot_predict_mean: [27.53]
+time_human_predict_mean: [9.06]
+Human 
+9.49, 9.49, 10.17
+171
+x position: 0
+y position: 1
+time_robot_predict_mean: [2.6]
+time_human_predict_mean: [19.78]
+Robot 
+1.00, 2.50, 1.44
+172
+x position: 5
+y position: 4
+time_robot_predict_mean: [16.03]
+time_human_predict_mean: [16.29]
+Robot 
+6.40, 16.01, 16.29
+173
+x position: 12
+y position: 5
+time_robot_predict_mean: [31.72]
+time_human_predict_mean: [9.38]
+Human 
+9.43, 9.43, 8.69
+174
+x position: 11
+y position: 1
+time_robot_predict_mean: [23.34]
+time_human_predict_mean: [8.54]
+Human 
+9.06, 9.06, 9.51
+175
+x position: 17
+y position: 5
+time_robot_predict_mean: [33.55]
+time_human_predict_mean: [6.49]
+Human 
+5.83, 5.83, 6.35
+176
+x position: 9
+y position: 2
+time_robot_predict_mean: [21.63]
+time_human_predict_mean: [11.32]
+Human 
+11.18, 11.18, 10.83
+177
+x position: 2
+y position: 3
+time_robot_predict_mean: [7.78]
+time_human_predict_mean: [17.91]
+Robot 
+3.61, 9.01, 8.64
+178
+x position: 19
+y position: 5
+time_robot_predict_mean: [28.63]
 time_human_predict_mean: [0.]
 died 
-
-
+Human 
+5.10, 5.10, 5.15
 179
 x position: 10
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
+y position: 0
+time_robot_predict_mean: [5.27]
+time_human_predict_mean: [8.35]
+Robot 
+10.00, 25.00, 25.09
 180
-x position: 8
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [12.16755475]
-died 
-
-
+x position: 1
+y position: 4
+time_robot_predict_mean: [8.49]
+time_human_predict_mean: [16.52]
+Robot 
+4.12, 10.31, 10.49
 181
-x position: 14
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [6.26073553]
-died 
-
-
+x position: 13
+y position: 4
+time_robot_predict_mean: [16.61]
+time_human_predict_mean: [7.66]
+Human 
+8.06, 8.06, 8.35
 182
-x position: 12
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [8.76459227]
-died 
-
-
+x position: 15
+y position: 1
+time_robot_predict_mean: [34.1]
+time_human_predict_mean: [5.4]
+Human 
+5.10, 5.10, 5.45
 183
-x position: 0
-y position: 2
-time_robot_predict_mean: [5.79128405]
-time_human_predict_mean: [20.60319287]
-Robot 
-2.00, 5.00, 5.92
-
-184
-x position: 5
-y position: 3
-time_robot_predict_mean: [10.8162487]
+x position: 1
+y position: 4
+time_robot_predict_mean: [10.49]
 time_human_predict_mean: [0.]
 died 
-
-
+Human 
+19.42, 19.42, 19.01
+184
+x position: 8
+y position: 5
+time_robot_predict_mean: [17.33]
+time_human_predict_mean: [13.69]
+Human 
+13.00, 13.00, 12.28
 185
+x position: 11
+y position: 1
+time_robot_predict_mean: [28.99]
+time_human_predict_mean: [8.78]
+Human 
+9.06, 9.06, 8.71
+186
+x position: 18
+y position: 2
+time_robot_predict_mean: [10.45]
+time_human_predict_mean: [3.01]
+Human 
+2.83, 2.83, 2.20
+187
+x position: 10
+y position: 2
+time_robot_predict_mean: [25.48]
+time_human_predict_mean: [9.92]
+Human 
+10.20, 10.20, 9.62
+188
+x position: 19
+y position: 5
+time_robot_predict_mean: [28.58]
+time_human_predict_mean: [5.15]
+Human 
+5.10, 5.10, 5.62
+189
+x position: 1
+y position: 0
+time_robot_predict_mean: [2.96]
+time_human_predict_mean: [8.35]
+Robot 
+1.00, 2.50, 1.89
+190
 x position: 14
 y position: 2
-time_robot_predict_mean: [0.19198818]
-time_human_predict_mean: [5.83089434]
+time_robot_predict_mean: [34.76]
+time_human_predict_mean: [6.88]
+Human 
+6.32, 6.32, 6.29
+191
+x position: 3
+y position: 2
+time_robot_predict_mean: [9.16]
+time_human_predict_mean: [16.97]
 Robot 
-14.14, 35.36, 35.40
-
-186
-x position: 5
+3.61, 9.01, 7.95
+192
+x position: 20
+y position: 0
+time_robot_predict_mean: [6.76]
+time_human_predict_mean: [0.48]
+Human 
+0.00, 0.00, 1.08
+193
+x position: 19
 y position: 1
-time_robot_predict_mean: [8.55391291]
-time_human_predict_mean: [0.]
-died 
-
-
-187
+time_robot_predict_mean: [18.78]
+time_human_predict_mean: [1.]
+Human 
+1.41, 1.41, 1.82
+194
+x position: 10
+y position: 2
+time_robot_predict_mean: [25.48]
+time_human_predict_mean: [9.77]
+Human 
+10.20, 10.20, 11.26
+195
+x position: 1
+y position: 0
+time_robot_predict_mean: [2.43]
+time_human_predict_mean: [8.35]
+Robot 
+1.00, 2.50, 2.92
+196
+x position: 18
+y position: 3
+time_robot_predict_mean: [11.15]
+time_human_predict_mean: [3.35]
+Human 
+3.61, 3.61, 3.72
+197
+x position: 4
+y position: 5
+time_robot_predict_mean: [15.91]
+time_human_predict_mean: [16.54]
+Robot 
+6.40, 16.01, 14.68
+198
+x position: 6
+y position: 3
+time_robot_predict_mean: [17.74]
+time_human_predict_mean: [14.32]
+Human 
+14.32, 14.32, 13.84
+199
+x position: 11
+y position: 3
+time_robot_predict_mean: [20.75]
+time_human_predict_mean: [10.17]
+Human 
+9.49, 9.49, 8.38
+200
+x position: 17
+y position: 5
+time_robot_predict_mean: [33.55]
+time_human_predict_mean: [6.42]
+Human 
+5.83, 5.83, 5.62
+201
 x position: 8
 y position: 0
-time_robot_predict_mean: [19.16230085]
-time_human_predict_mean: [12.44830228]
+time_robot_predict_mean: [13.49]
+time_human_predict_mean: [11.8]
 Human 
-12.00, 12.00, 12.27
-
-188
-x position: 10
-y position: 3
-time_robot_predict_mean: [2.35510562]
-time_human_predict_mean: [1.43694679]
-Human 
-10.44, 10.44, 10.30
-
-189
-x position: 11
-y position: 3
-time_robot_predict_mean: [4.06366461]
-time_human_predict_mean: [7.12006163]
-Robot 
-11.40, 28.50, 27.73
-
-190
-x position: 1
-y position: 2
-time_robot_predict_mean: [4.65747778]
-time_human_predict_mean: [18.06302822]
-Robot 
-2.24, 5.59, 5.62
-
-191
-x position: 20
-y position: 2
-time_robot_predict_mean: [5.34123465e-07]
-time_human_predict_mean: [0.56002437]
-died 
-
-
-192
-x position: 0
-y position: 3
-time_robot_predict_mean: [7.63728443]
-time_human_predict_mean: [12.85443631]
-Robot 
-3.00, 7.50, 8.13
-
-193
-x position: 9
-y position: 1
-time_robot_predict_mean: [10.80717145]
-time_human_predict_mean: [10.80582326]
-Human 
-11.05, 11.05, 11.90
-
-194
-x position: 3
-y position: 0
-time_robot_predict_mean: [5.32669717]
-time_human_predict_mean: [13.98855309]
-Robot 
-3.00, 7.50, 7.55
-
-195
-x position: 19
-y position: 4
-time_robot_predict_mean: [1.76877401e-05]
-time_human_predict_mean: [2.1332877]
-died 
-
-
-196
-x position: 11
-y position: 3
-time_robot_predict_mean: [27.72915046]
-time_human_predict_mean: [9.00277657]
-Human 
-9.49, 9.49, 8.94
-
-197
-x position: 3
-y position: 0
-time_robot_predict_mean: [7.54738751]
-time_human_predict_mean: [10.00379149]
-Robot 
-3.00, 7.50, 7.47
-
-198
-x position: 2
-y position: 1
-time_robot_predict_mean: [5.07762602]
-time_human_predict_mean: [17.86259623]
-Robot 
-2.24, 5.59, 6.17
-
-199
-x position: 13
-y position: 3
-time_robot_predict_mean: [16.62216314]
-time_human_predict_mean: [7.35784316]
-Human 
-7.62, 7.62, 6.25
-
-200
-x position: 4
-y position: 1
-time_robot_predict_mean: [9.85236519]
-time_human_predict_mean: [15.89956541]
-Robot 
-4.12, 10.31, 10.26
-
-201
-x position: 12
-y position: 3
-time_robot_predict_mean: [19.55266936]
-time_human_predict_mean: [7.50114299]
-Human 
-8.54, 8.54, 7.75
-
+12.00, 12.00, 11.97
 202
-x position: 16
-y position: 4
-time_robot_predict_mean: [0.64239469]
-time_human_predict_mean: [4.87488098]
-Robot 
-16.49, 41.23, 40.39
-
-203
-x position: 6
+x position: 13
 y position: 5
-time_robot_predict_mean: [0.21383751]
-time_human_predict_mean: [0.0877605]
+time_robot_predict_mean: [21.12]
+time_human_predict_mean: [8.73]
 Human 
-14.87, 14.87, 14.31
-
+8.60, 8.60, 9.41
+203
+x position: 0
+y position: 1
+time_robot_predict_mean: [2.37]
+time_human_predict_mean: [19.78]
+Robot 
+1.00, 2.50, 2.88
 204
-x position: 7
+x position: 8
 y position: 0
-time_robot_predict_mean: [11.70889897]
-time_human_predict_mean: [0.]
-died 
-
-
+time_robot_predict_mean: [13.49]
+time_human_predict_mean: [11.88]
+Human 
+12.00, 12.00, 12.47
 205
+x position: 1
+y position: 5
+time_robot_predict_mean: [9.59]
+time_human_predict_mean: [19.54]
+Robot 
+5.10, 12.75, 12.77
+206
+x position: 16
+y position: 1
+time_robot_predict_mean: [40.33]
+time_human_predict_mean: [4.29]
+Human 
+4.12, 4.12, 4.36
+207
 x position: 5
 y position: 0
-time_robot_predict_mean: [3.42552615]
-time_human_predict_mean: [15.20676488]
-Robot 
-5.00, 12.50, 12.09
-
-206
-x position: 4
-y position: 3
-time_robot_predict_mean: [12.56998062]
-time_human_predict_mean: [16.12335243]
-Robot 
-5.00, 12.50, 12.49
-
-207
-x position: 13
-y position: 5
-time_robot_predict_mean: [20.74793652]
-time_human_predict_mean: [8.81584324]
+time_robot_predict_mean: [12.81]
+time_human_predict_mean: [11.42]
 Human 
-8.60, 8.60, 7.79
-
+15.00, 15.00, 14.59
 208
-x position: 1
-y position: 4
-time_robot_predict_mean: [10.98376203]
-time_human_predict_mean: [12.38881808]
-Robot 
-4.12, 10.31, 10.56
-
+x position: 14
+y position: 3
+time_robot_predict_mean: [22.25]
+time_human_predict_mean: [6.62]
+Human 
+6.71, 6.71, 6.68
 209
-x position: 0
-y position: 1
-time_robot_predict_mean: [2.01269604]
-time_human_predict_mean: [17.64611293]
-Robot 
-1.00, 2.50, 1.61
-
+x position: 12
+y position: 3
+time_robot_predict_mean: [15.52]
+time_human_predict_mean: [8.97]
+Human 
+8.54, 8.54, 8.52
 210
 x position: 17
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [5.48400268]
-died 
-
-
+y position: 0
+time_robot_predict_mean: [13.68]
+time_human_predict_mean: [3.03]
+Human 
+3.00, 3.00, 2.96
 211
-x position: 14
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [2.28871825]
-died 
-
-
-212
 x position: 6
+y position: 2
+time_robot_predict_mean: [14.62]
+time_human_predict_mean: [14.6]
+Robot 
+6.32, 15.81, 15.77
+212
+x position: 9
 y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [9.65168887]
-died 
-
-
+time_robot_predict_mean: [19.86]
+time_human_predict_mean: [11.39]
+Human 
+11.70, 11.70, 12.02
 213
-x position: 19
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.50396277]
-died 
-
-
+x position: 14
+y position: 5
+time_robot_predict_mean: [27.45]
+time_human_predict_mean: [7.14]
+Human 
+7.81, 7.81, 8.05
 214
-x position: 1
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [19.22190881]
-died 
-
-
-215
-x position: 15
+x position: 18
 y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [5.11881613]
-died 
-
-
+time_robot_predict_mean: [29.44]
+time_human_predict_mean: [4.62]
+Human 
+4.47, 4.47, 3.70
+215
+x position: 18
+y position: 2
+time_robot_predict_mean: [10.39]
+time_human_predict_mean: [2.6]
+Human 
+2.83, 2.83, 3.39
 216
+x position: 1
+y position: 3
+time_robot_predict_mean: [8.13]
+time_human_predict_mean: [14.41]
+Robot 
+3.16, 7.91, 7.85
+217
+x position: 0
+y position: 2
+time_robot_predict_mean: [5.67]
+time_human_predict_mean: [13.35]
+Robot 
+2.00, 5.00, 5.31
+218
+x position: 17
+y position: 0
+time_robot_predict_mean: [14.06]
+time_human_predict_mean: [3.01]
+Human 
+3.00, 3.00, 3.49
+219
+x position: 8
+y position: 5
+time_robot_predict_mean: [17.31]
+time_human_predict_mean: [13.22]
+Human 
+13.00, 13.00, 12.76
+220
+x position: 0
+y position: 2
+time_robot_predict_mean: [5.31]
+time_human_predict_mean: [13.35]
+Robot 
+2.00, 5.00, 5.10
+221
+x position: 16
+y position: 0
+time_robot_predict_mean: [23.53]
+time_human_predict_mean: [3.68]
+Human 
+4.00, 4.00, 4.37
+222
+x position: 19
+y position: 4
+time_robot_predict_mean: [21.21]
+time_human_predict_mean: [3.77]
+Human 
+4.12, 4.12, 4.27
+223
+x position: 6
+y position: 1
+time_robot_predict_mean: [13.29]
+time_human_predict_mean: [14.5]
+Robot 
+6.08, 15.21, 15.59
+224
+x position: 3
+y position: 3
+time_robot_predict_mean: [10.2]
+time_human_predict_mean: [15.7]
+Robot 
+4.24, 10.61, 10.52
+225
 x position: 8
 y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [12.16755473]
-died 
-
-
-217
-x position: 16
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [3.9681183]
-died 
-
-
-218
-x position: 5
-y position: 0
-time_robot_predict_mean: [12.09223357]
-time_human_predict_mean: [4.95457136]
+time_robot_predict_mean: [20.39]
+time_human_predict_mean: [11.99]
 Human 
-15.00, 15.00, 14.61
-
-219
-x position: 9
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [11.72644814]
-died 
-
-
-220
-x position: 2
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [9.89916191]
-died 
-
-
-221
-x position: 4
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [11.88031183]
-died 
-
-
-222
-x position: 1
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [13.88463695]
-died 
-
-
-223
-x position: 2
-y position: 0
-time_robot_predict_mean: [4.19949709]
-time_human_predict_mean: [15.68954614]
-Robot 
-2.00, 5.00, 4.51
-
-224
-x position: 15
-y position: 2
-time_robot_predict_mean: [24.10355296]
-time_human_predict_mean: [5.58088063]
-Human 
-5.39, 5.39, 4.54
-
-225
-x position: 4
-y position: 5
-time_robot_predict_mean: [1.86029212]
-time_human_predict_mean: [9.86657484]
-Robot 
-6.40, 16.01, 15.75
-
+12.17, 12.17, 11.98
 226
-x position: 2
-y position: 4
-time_robot_predict_mean: [10.58007812]
-time_human_predict_mean: [18.36432184]
-Robot 
-4.47, 11.18, 11.17
-
-227
-x position: 5
-y position: 1
-time_robot_predict_mean: [12.45585232]
-time_human_predict_mean: [13.03415839]
-Robot 
-5.10, 12.75, 12.53
-
-228
-x position: 16
-y position: 3
-time_robot_predict_mean: [26.93617862]
-time_human_predict_mean: [4.57752718]
-Human 
-5.00, 5.00, 5.32
-
-229
-x position: 14
-y position: 0
-time_robot_predict_mean: [4.82025223]
-time_human_predict_mean: [0.]
-died 
-
-
-230
-x position: 14
+x position: 19
 y position: 2
-time_robot_predict_mean: [35.40137927]
-time_human_predict_mean: [5.83105469]
+time_robot_predict_mean: [30.83]
+time_human_predict_mean: [1.76]
 Human 
-6.32, 6.32, 6.52
-
-231
+2.24, 2.24, 2.32
+227
 x position: 15
-y position: 3
-time_robot_predict_mean: [27.27110429]
-time_human_predict_mean: [5.63787232]
+y position: 2
+time_robot_predict_mean: [32.35]
+time_human_predict_mean: [5.15]
 Human 
-5.83, 5.83, 5.11
-
+5.39, 5.39, 5.21
+228
+x position: 5
+y position: 0
+time_robot_predict_mean: [12.81]
+time_human_predict_mean: [14.59]
+Robot 
+5.00, 12.50, 12.88
+229
+x position: 8
+y position: 1
+time_robot_predict_mean: [16.74]
+time_human_predict_mean: [11.56]
+Human 
+12.04, 12.04, 11.54
+230
+x position: 8
+y position: 0
+time_robot_predict_mean: [12.52]
+time_human_predict_mean: [12.08]
+Robot 
+8.00, 20.00, 20.90
+231
+x position: 12
+y position: 3
+time_robot_predict_mean: [0.]
+time_human_predict_mean: [8.74]
+died 
+Robot 
+12.37, 30.92, 31.31
 232
-x position: 9
-y position: 4
-time_robot_predict_mean: [2.0214472]
-time_human_predict_mean: [3.95025874]
-Robot 
-9.85, 24.62, 24.97
-
-233
-x position: 17
-y position: 3
-time_robot_predict_mean: [14.8595664]
-time_human_predict_mean: [3.67934252]
+x position: 12
+y position: 2
+time_robot_predict_mean: [31.94]
+time_human_predict_mean: [8.39]
 Human 
-4.24, 4.24, 4.17
-
-234
-x position: 7
+8.25, 8.25, 7.43
+233
+x position: 12
 y position: 4
-time_robot_predict_mean: [3.46334183]
-time_human_predict_mean: [6.14937578]
-Robot 
-8.06, 20.16, 20.13
-
+time_robot_predict_mean: [32.27]
+time_human_predict_mean: [9.11]
+Human 
+8.94, 8.94, 9.34
+234
+x position: 16
+y position: 1
+time_robot_predict_mean: [40.33]
+time_human_predict_mean: [4.33]
+Human 
+4.12, 4.12, 4.09
 235
 x position: 15
-y position: 0
-time_robot_predict_mean: [2.83321129]
-time_human_predict_mean: [2.83983052]
-Robot 
-15.00, 37.50, 37.56
-
+y position: 4
+time_robot_predict_mean: [27.03]
+time_human_predict_mean: [6.71]
+Human 
+6.40, 6.40, 6.11
 236
-x position: 17
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [2.8698176]
-died 
-
-
-237
-x position: 4
-y position: 3
-time_robot_predict_mean: [12.52919744]
-time_human_predict_mean: [9.71250726]
-Human 
-16.28, 16.28, 15.91
-
-238
-x position: 2
-y position: 4
-time_robot_predict_mean: [10.77677452]
-time_human_predict_mean: [18.36432184]
-Robot 
-4.47, 11.18, 10.06
-
-239
-x position: 8
-y position: 5
-time_robot_predict_mean: [14.42606247]
-time_human_predict_mean: [2.02810621]
-Human 
-13.00, 13.00, 13.74
-
-240
-x position: 17
-y position: 0
-time_robot_predict_mean: [2.27232102]
-time_human_predict_mean: [0.]
-died 
-
-
-241
-x position: 9
-y position: 5
-time_robot_predict_mean: [16.92633204]
-time_human_predict_mean: [0.]
-died 
-
-
-242
-x position: 6
-y position: 2
-time_robot_predict_mean: [8.38997741]
-time_human_predict_mean: [0.]
-died 
-
-
-243
-x position: 10
-y position: 3
-time_robot_predict_mean: [21.48697581]
-time_human_predict_mean: [10.30264919]
-Human 
-10.44, 10.44, 10.61
-
-244
-x position: 11
-y position: 0
-time_robot_predict_mean: [17.21093795]
-time_human_predict_mean: [8.75302362]
-Human 
-9.00, 9.00, 8.84
-
-245
-x position: 11
-y position: 3
-time_robot_predict_mean: [27.72915046]
-time_human_predict_mean: [8.94184784]
-Human 
-9.49, 9.49, 8.96
-
-246
-x position: 8
-y position: 4
-time_robot_predict_mean: [20.86652814]
-time_human_predict_mean: [10.11147739]
-Human 
-12.65, 12.65, 12.11
-
-247
-x position: 4
-y position: 5
-time_robot_predict_mean: [15.74987379]
-time_human_predict_mean: [0.]
-died 
-
-
-248
-x position: 8
-y position: 4
-time_robot_predict_mean: [20.86652814]
-time_human_predict_mean: [12.11050785]
-Human 
-12.65, 12.65, 12.96
-
-249
-x position: 9
-y position: 0
-time_robot_predict_mean: [10.7907688]
-time_human_predict_mean: [10.926038]
-Robot 
-9.00, 22.50, 22.66
-
-250
-x position: 2
-y position: 5
-time_robot_predict_mean: [11.42159878]
-time_human_predict_mean: [0.]
-died 
-
-
-251
-x position: 12
-y position: 0
-time_robot_predict_mean: [10.13306045]
-time_human_predict_mean: [8.76459227]
-Human 
-8.00, 8.00, 8.22
-
-252
-x position: 0
-y position: 3
-time_robot_predict_mean: [7.8823132]
-time_human_predict_mean: [18.90596375]
-Robot 
-3.00, 7.50, 7.90
-
-253
-x position: 20
-y position: 4
-time_robot_predict_mean: [0.01335439]
-time_human_predict_mean: [-10.26569136]
-died 
-
-
-254
-x position: 0
-y position: 5
-time_robot_predict_mean: [7.24969059]
-time_human_predict_mean: [11.65261672]
-Robot 
-5.00, 12.50, 13.34
-
-255
-x position: 2
-y position: 0
-time_robot_predict_mean: [4.35473796]
-time_human_predict_mean: [16.68312561]
-Robot 
-2.00, 5.00, 5.49
-
-256
-x position: 20
-y position: 1
-time_robot_predict_mean: [9.42068217e-05]
-time_human_predict_mean: [0.7977152]
-died 
-
-
-257
-x position: 12
-y position: 2
-time_robot_predict_mean: [20.26078785]
-time_human_predict_mean: [7.48976344]
-Human 
-8.25, 8.25, 8.09
-
-258
-x position: 14
-y position: 2
-time_robot_predict_mean: [35.40137927]
-time_human_predict_mean: [6.00304357]
-Human 
-6.32, 6.32, 5.56
-
-259
-x position: 6
-y position: 2
-time_robot_predict_mean: [8.40579311]
-time_human_predict_mean: [7.18001651]
-Human 
-14.14, 14.14, 13.88
-
-260
-x position: 2
-y position: 5
-time_robot_predict_mean: [9.55825439]
-time_human_predict_mean: [10.51624428]
-Robot 
-5.39, 13.46, 12.99
-
-261
-x position: 11
-y position: 0
-time_robot_predict_mean: [16.98437083]
-time_human_predict_mean: [8.79670108]
-Human 
-9.00, 9.00, 9.57
-
-262
-x position: 16
-y position: 5
-time_robot_predict_mean: [24.19301556]
-time_human_predict_mean: [3.02852744]
-Human 
-6.40, 6.40, 5.75
-
-263
-x position: 6
-y position: 2
-time_robot_predict_mean: [8.95471458]
-time_human_predict_mean: [13.88307697]
-Robot 
-6.32, 15.81, 16.08
-
-264
-x position: 8
-y position: 1
-time_robot_predict_mean: [10.70105882]
-time_human_predict_mean: [13.33869939]
-Robot 
-8.06, 20.16, 19.42
-
-265
 x position: 15
-y position: 2
-time_robot_predict_mean: [28.29372384]
-time_human_predict_mean: [4.54412352]
+y position: 0
+time_robot_predict_mean: [16.43]
+time_human_predict_mean: [5.05]
 Human 
-5.39, 5.39, 6.17
-
-266
+5.00, 5.00, 5.02
+237
 x position: 18
-y position: 1
-time_robot_predict_mean: [2.63916178]
-time_human_predict_mean: [0.40311283]
+y position: 3
+time_robot_predict_mean: [11.15]
+time_human_predict_mean: [3.72]
 Human 
-2.24, 2.24, 2.89
-
-267
-x position: 1
-y position: 4
-time_robot_predict_mean: [10.55696473]
-time_human_predict_mean: [11.92604998]
-Robot 
-4.12, 10.31, 10.23
-
-268
-x position: 20
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.79771503]
-died 
-
-
-269
-x position: 6
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [12.61550646]
-died 
-
-
-270
-x position: 20
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.05125143]
-died 
-
-
-271
+3.61, 3.61, 3.93
+238
+x position: 15
+y position: 3
+time_robot_predict_mean: [19.09]
+time_human_predict_mean: [5.37]
+Human 
+5.83, 5.83, 5.88
+239
 x position: 16
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [2.07792667]
-died 
-
-
-272
-x position: 14
 y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [4.46213634]
-died 
-
-
-273
-x position: 7
+time_robot_predict_mean: [40.33]
+time_human_predict_mean: [4.25]
+Human 
+4.12, 4.12, 3.93
+240
+x position: 16
+y position: 3
+time_robot_predict_mean: [11.54]
+time_human_predict_mean: [5.]
+Human 
+5.00, 5.00, 4.99
+241
+x position: 19
+y position: 5
+time_robot_predict_mean: [28.55]
+time_human_predict_mean: [5.38]
+Human 
+5.10, 5.10, 5.02
+242
+x position: 16
+y position: 5
+time_robot_predict_mean: [30.25]
+time_human_predict_mean: [6.28]
+Human 
+6.40, 6.40, 6.44
+243
+x position: 5
+y position: 3
+time_robot_predict_mean: [15.25]
+time_human_predict_mean: [15.89]
+Robot 
+5.83, 14.58, 14.38
+244
+x position: 10
 y position: 2
+time_robot_predict_mean: [25.48]
+time_human_predict_mean: [10.27]
+Human 
+10.20, 10.20, 9.30
+245
+x position: 19
+y position: 4
 time_robot_predict_mean: [0.]
-time_human_predict_mean: [12.16880053]
+time_human_predict_mean: [4.02]
 died 
-
-
-274
+Robot 
+19.42, 48.54, 47.53
+246
+x position: 10
+y position: 4
+time_robot_predict_mean: [8.23]
+time_human_predict_mean: [10.69]
+Robot 
+10.77, 26.93, 26.89
+247
+x position: 5
+y position: 4
+time_robot_predict_mean: [16.29]
+time_human_predict_mean: [16.23]
+Human 
+15.52, 15.52, 15.91
+248
+x position: 17
+y position: 3
+time_robot_predict_mean: [9.76]
+time_human_predict_mean: [4.41]
+Human 
+4.24, 4.24, 4.37
+249
+x position: 18
+y position: 0
+time_robot_predict_mean: [4.]
+time_human_predict_mean: [2.4]
+Human 
+2.00, 2.00, 1.24
+250
+x position: 4
+y position: 3
+time_robot_predict_mean: [12.42]
+time_human_predict_mean: [15.66]
+Robot 
+5.00, 12.50, 12.36
+251
+x position: 9
+y position: 1
+time_robot_predict_mean: [23.14]
+time_human_predict_mean: [11.09]
+Human 
+11.05, 11.05, 11.09
+252
+x position: 3
+y position: 4
+time_robot_predict_mean: [12.84]
+time_human_predict_mean: [13.19]
+Human 
+17.46, 17.46, 17.16
+253
+x position: 4
+y position: 2
+time_robot_predict_mean: [11.36]
+time_human_predict_mean: [16.17]
+Robot 
+4.47, 11.18, 11.40
+254
+x position: 5
+y position: 4
+time_robot_predict_mean: [16.29]
+time_human_predict_mean: [15.91]
+Human 
+15.52, 15.52, 15.36
+255
+x position: 11
+y position: 4
+time_robot_predict_mean: [29.59]
+time_human_predict_mean: [7.91]
+Human 
+9.85, 9.85, 10.16
+256
+x position: 2
+y position: 5
+time_robot_predict_mean: [14.13]
+time_human_predict_mean: [15.76]
+Robot 
+5.39, 13.46, 13.80
+257
+x position: 0
+y position: 5
+time_robot_predict_mean: [6.68]
+time_human_predict_mean: [11.02]
+Robot 
+5.00, 12.50, 11.94
+258
+x position: 0
+y position: 0
+time_robot_predict_mean: [0.83]
+time_human_predict_mean: [11.66]
+Robot 
+0.00, 0.00, 0.29
+259
+x position: 20
+y position: 1
+time_robot_predict_mean: [28.96]
+time_human_predict_mean: [1.12]
+Human 
+1.00, 1.00, 1.42
+260
+x position: 5
+y position: 4
+time_robot_predict_mean: [16.29]
+time_human_predict_mean: [15.63]
+Human 
+15.52, 15.52, 14.89
+261
+x position: 13
+y position: 3
+time_robot_predict_mean: [27.39]
+time_human_predict_mean: [0.]
+died 
+Human 
+7.62, 7.62, 7.99
+262
+x position: 18
+y position: 0
+time_robot_predict_mean: [4.]
+time_human_predict_mean: [2.01]
+Human 
+2.00, 2.00, 2.00
+263
+x position: 2
+y position: 1
+time_robot_predict_mean: [5.9]
+time_human_predict_mean: [6.33]
+Human 
+18.03, 18.03, 17.47
+264
 x position: 14
 y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [7.30818296]
-died 
-
-
-275
-x position: 20
+time_robot_predict_mean: [21.95]
+time_human_predict_mean: [6.82]
+Human 
+7.21, 7.21, 6.98
+265
+x position: 16
+y position: 5
+time_robot_predict_mean: [28.99]
+time_human_predict_mean: [6.32]
+Human 
+6.40, 6.40, 6.52
+266
+x position: 17
+y position: 4
+time_robot_predict_mean: [20.72]
+time_human_predict_mean: [5.55]
+Human 
+5.00, 5.00, 4.77
+267
+x position: 15
 y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.05125143]
+time_robot_predict_mean: [16.42]
+time_human_predict_mean: [5.04]
+Human 
+5.00, 5.00, 5.56
+268
+x position: 7
+y position: 1
+time_robot_predict_mean: [18.74]
+time_human_predict_mean: [0.]
 died 
-
-
-276
-x position: 8
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [12.5333047]
+Human 
+13.04, 13.04, 13.98
+269
+x position: 9
+y position: 3
+time_robot_predict_mean: [18.65]
+time_human_predict_mean: [11.75]
+Human 
+11.40, 11.40, 12.10
+270
+x position: 19
+y position: 0
+time_robot_predict_mean: [4.16]
+time_human_predict_mean: [0.]
 died 
-
-
-277
-x position: 4
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [10.73883886]
-died 
-
-
-278
+Human 
+1.00, 1.00, 1.52
+271
+x position: 2
+y position: 5
+time_robot_predict_mean: [13.96]
+time_human_predict_mean: [16.07]
+Robot 
+5.39, 13.46, 14.16
+272
+x position: 17
+y position: 2
+time_robot_predict_mean: [15.68]
+time_human_predict_mean: [3.94]
+Human 
+3.61, 3.61, 2.98
+273
+x position: 9
+y position: 0
+time_robot_predict_mean: [23.05]
+time_human_predict_mean: [10.19]
+Human 
+11.00, 11.00, 10.65
+274
 x position: 6
 y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [11.27904149]
+time_robot_predict_mean: [19.34]
+time_human_predict_mean: [0.]
 died 
-
-
+Human 
+14.56, 14.56, 15.24
+275
+x position: 11
+y position: 2
+time_robot_predict_mean: [28.24]
+time_human_predict_mean: [6.86]
+Human 
+9.22, 9.22, 9.39
+276
+x position: 20
+y position: 1
+time_robot_predict_mean: [28.96]
+time_human_predict_mean: [1.42]
+Human 
+1.00, 1.00, 1.83
+277
+x position: 3
+y position: 5
+time_robot_predict_mean: [14.24]
+time_human_predict_mean: [0.]
+died 
+Human 
+17.72, 17.72, 18.51
+278
+x position: 17
+y position: 5
+time_robot_predict_mean: [29.24]
+time_human_predict_mean: [6.16]
+Human 
+5.83, 5.83, 6.25
 279
 x position: 13
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [6.80284683]
-died 
-
-
-280
-x position: 19
 y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [1.07658851]
-died 
-
-
-281
-x position: 11
-y position: 3
-time_robot_predict_mean: [27.72915046]
-time_human_predict_mean: [8.95224611]
+time_robot_predict_mean: [33.17]
+time_human_predict_mean: [8.21]
 Human 
-9.49, 9.49, 9.60
-
+7.28, 7.28, 7.32
+280
+x position: 0
+y position: 3
+time_robot_predict_mean: [8.37]
+time_human_predict_mean: [2.65]
+Human 
+20.22, 20.22, 20.86
+281
+x position: 20
+y position: 4
+time_robot_predict_mean: [27.91]
+time_human_predict_mean: [1.61]
+Human 
+4.00, 4.00, 3.92
 282
-x position: 9
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [11.89692737]
-died 
-
-
+x position: 13
+y position: 0
+time_robot_predict_mean: [10.9]
+time_human_predict_mean: [6.12]
+Human 
+7.00, 7.00, 6.27
 283
 x position: 14
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.86553603]
-died 
-
-
+y position: 5
+time_robot_predict_mean: [27.73]
+time_human_predict_mean: [8.05]
+Human 
+7.81, 7.81, 8.18
 284
-x position: 16
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [5.31944773]
-died 
-
-
+x position: 14
+y position: 1
+time_robot_predict_mean: [25.37]
+time_human_predict_mean: [6.14]
+Human 
+6.08, 6.08, 5.97
 285
-x position: 2
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [7.80295776]
-died 
-
-
+x position: 4
+y position: 5
+time_robot_predict_mean: [15.6]
+time_human_predict_mean: [16.54]
+Robot 
+6.40, 16.01, 17.27
 286
-x position: 6
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [7.54612768]
-died 
-
-
-287
-x position: 14
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.86553603]
-died 
-
-
-288
-x position: 6
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [6.29187146]
-died 
-
-
-289
-x position: 5
-y position: 0
-time_robot_predict_mean: [12.09223357]
-time_human_predict_mean: [14.6117605]
-Robot 
-5.00, 12.50, 12.74
-
-290
-x position: 1
-y position: 5
-time_robot_predict_mean: [12.53961711]
-time_human_predict_mean: [2.93866001]
-Human 
-19.65, 19.65, 19.75
-
-291
-x position: 14
-y position: 2
-time_robot_predict_mean: [35.40137927]
-time_human_predict_mean: [5.91394682]
-Human 
-6.32, 6.32, 6.13
-
-292
-x position: 9
-y position: 5
-time_robot_predict_mean: [14.25155029]
-time_human_predict_mean: [8.01183311]
-Human 
-12.08, 12.08, 12.01
-
-293
-x position: 3
-y position: 3
-time_robot_predict_mean: [8.81083307]
-time_human_predict_mean: [13.76419498]
-Robot 
-4.24, 10.61, 11.33
-
-294
-x position: 2
-y position: 0
-time_robot_predict_mean: [4.73194722]
-time_human_predict_mean: [15.50704419]
-Robot 
-2.00, 5.00, 5.92
-
-295
-x position: 16
-y position: 5
-time_robot_predict_mean: [22.2664858]
-time_human_predict_mean: [5.7473308]
-Human 
-6.40, 6.40, 6.58
-
-296
-x position: 0
-y position: 2
-time_robot_predict_mean: [5.83540686]
-time_human_predict_mean: [20.60319286]
-Robot 
-2.00, 5.00, 5.17
-
-297
-x position: 6
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [14.30720627]
-died 
-
-
-298
-x position: 7
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [3.37006601]
-died 
-
-
-299
 x position: 15
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [5.35664898]
-died 
-
-
-300
-x position: 1
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [12.94227187]
-died 
-
-
-301
+y position: 0
+time_robot_predict_mean: [15.85]
+time_human_predict_mean: [5.17]
+Human 
+5.00, 5.00, 5.80
+287
 x position: 8
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [12.53330516]
-died 
-
-
-302
-x position: 10
 y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [5.6839717]
-died 
-
-
-303
-x position: 13
+time_robot_predict_mean: [20.85]
+time_human_predict_mean: [11.55]
+Human 
+12.04, 12.04, 12.43
+288
+x position: 1
+y position: 4
+time_robot_predict_mean: [10.49]
+time_human_predict_mean: [19.01]
+Robot 
+4.12, 10.31, 10.17
+289
+x position: 16
 y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [4.4824403]
-died 
-
-
-304
+time_robot_predict_mean: [27.22]
+time_human_predict_mean: [4.73]
+Human 
+4.47, 4.47, 5.05
+290
 x position: 14
 y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [6.26180901]
-died 
-
-
-305
-x position: 18
+time_robot_predict_mean: [24.45]
+time_human_predict_mean: [6.65]
+Human 
+6.71, 6.71, 5.59
+291
+x position: 3
+y position: 1
+time_robot_predict_mean: [7.94]
+time_human_predict_mean: [17.17]
+Robot 
+3.16, 7.91, 8.42
+292
+x position: 1
+y position: 1
+time_robot_predict_mean: [3.35]
+time_human_predict_mean: [16.63]
+Robot 
+1.41, 3.54, 3.15
+293
+x position: 13
+y position: 3
+time_robot_predict_mean: [27.5]
+time_human_predict_mean: [7.99]
+Human 
+7.62, 7.62, 8.11
+294
+x position: 8
+y position: 3
+time_robot_predict_mean: [17.28]
+time_human_predict_mean: [12.35]
+Human 
+12.37, 12.37, 12.91
+295
+x position: 4
+y position: 2
+time_robot_predict_mean: [11.4]
+time_human_predict_mean: [16.17]
+Robot 
+4.47, 11.18, 11.44
+296
+x position: 6
+y position: 5
+time_robot_predict_mean: [19.7]
+time_human_predict_mean: [14.9]
+Human 
+14.87, 14.87, 14.69
+297
+x position: 0
+y position: 1
+time_robot_predict_mean: [2.45]
+time_human_predict_mean: [19.78]
+Robot 
+1.00, 2.50, 3.53
+298
+x position: 20
+y position: 3
+time_robot_predict_mean: [43.82]
+time_human_predict_mean: [2.68]
+Human 
+3.00, 3.00, 3.71
+299
+x position: 12
+y position: 3
+time_robot_predict_mean: [31.31]
+time_human_predict_mean: [8.74]
+Human 
+8.54, 8.54, 8.30
+300
+x position: 5
+y position: 4
+time_robot_predict_mean: [16.29]
+time_human_predict_mean: [15.39]
+Human 
+15.52, 15.52, 15.44
+301
+x position: 5
+y position: 3
+time_robot_predict_mean: [14.81]
+time_human_predict_mean: [15.89]
+Robot 
+5.83, 14.58, 14.43
+302
+x position: 8
 y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.88476406]
-died 
-
-
+time_robot_predict_mean: [20.9]
+time_human_predict_mean: [12.08]
+Human 
+12.00, 12.00, 11.90
+303
+x position: 8
+y position: 3
+time_robot_predict_mean: [17.23]
+time_human_predict_mean: [12.53]
+Human 
+12.37, 12.37, 13.25
+304
+x position: 19
+y position: 1
+time_robot_predict_mean: [18.2]
+time_human_predict_mean: [1.82]
+Human 
+1.41, 1.41, 1.37
+305
+x position: 4
+y position: 1
+time_robot_predict_mean: [10.26]
+time_human_predict_mean: [15.45]
+Robot 
+4.12, 10.31, 9.09
 306
 x position: 17
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [3.16476619]
-died 
-
-
+y position: 3
+time_robot_predict_mean: [9.68]
+time_human_predict_mean: [4.4]
+Human 
+4.24, 4.24, 3.85
 307
-x position: 12
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [3.70344937]
-died 
-
-
-308
-x position: 3
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [6.74197337]
-died 
-
-
-309
-x position: 1
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [19.22190881]
-died 
-
-
-310
-x position: 1
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [12.94227187]
-died 
-
-
-311
-x position: 4
-y position: 1
-time_robot_predict_mean: [9.95361328]
-time_human_predict_mean: [15.89956541]
-Robot 
-4.12, 10.31, 9.34
-
-312
-x position: 3
-y position: 1
-time_robot_predict_mean: [8.30604388]
-time_human_predict_mean: [9.56776166]
-Robot 
-3.16, 7.91, 8.10
-
-313
 x position: 6
 y position: 0
-time_robot_predict_mean: [9.61847248]
-time_human_predict_mean: [4.55763292]
+time_robot_predict_mean: [14.51]
+time_human_predict_mean: [13.92]
 Human 
-14.00, 14.00, 15.16
-
+14.00, 14.00, 14.12
+308
+x position: 6
+y position: 2
+time_robot_predict_mean: [15.77]
+time_human_predict_mean: [14.6]
+Human 
+14.14, 14.14, 13.92
+309
+x position: 8
+y position: 1
+time_robot_predict_mean: [21.29]
+time_human_predict_mean: [11.84]
+Human 
+12.04, 12.04, 12.25
+310
+x position: 18
+y position: 3
+time_robot_predict_mean: [20.62]
+time_human_predict_mean: [3.82]
+Human 
+3.61, 3.61, 4.16
+311
+x position: 18
+y position: 5
+time_robot_predict_mean: [47.01]
+time_human_predict_mean: [5.04]
+Human 
+5.39, 5.39, 4.99
+312
+x position: 15
+y position: 4
+time_robot_predict_mean: [26.98]
+time_human_predict_mean: [6.41]
+Human 
+6.40, 6.40, 6.87
+313
+x position: 3
+y position: 5
+time_robot_predict_mean: [14.38]
+time_human_predict_mean: [18.51]
+Robot 
+5.83, 14.58, 13.69
 314
 x position: 11
-y position: 5
-time_robot_predict_mean: [4.63215925]
-time_human_predict_mean: [0.38983288]
+y position: 4
+time_robot_predict_mean: [29.59]
+time_human_predict_mean: [10.16]
 Human 
-10.30, 10.30, 9.53
-
+9.85, 9.85, 9.66
 315
-x position: 17
-y position: 3
-time_robot_predict_mean: [14.92950344]
-time_human_predict_mean: [3.92342401]
+x position: 10
+y position: 1
+time_robot_predict_mean: [27.33]
+time_human_predict_mean: [10.5]
 Human 
-4.24, 4.24, 5.15
-
+10.05, 10.05, 10.79
 316
-x position: 17
-y position: 0
-time_robot_predict_mean: [5.17947006]
-time_human_predict_mean: [0.]
-died 
-
-
-317
-x position: 20
-y position: 1
-time_robot_predict_mean: [0.00029301]
-time_human_predict_mean: [0.79771503]
-died 
-
-
-318
-x position: 13
-y position: 4
-time_robot_predict_mean: [4.97591102]
-time_human_predict_mean: [7.81045959]
-Robot 
-13.60, 34.00, 33.81
-
-319
-x position: 8
-y position: 0
-time_robot_predict_mean: [19.16230083]
-time_human_predict_mean: [12.35803223]
-Human 
-12.00, 12.00, 11.72
-
-320
-x position: 6
-y position: 3
-time_robot_predict_mean: [15.09637071]
-time_human_predict_mean: [10.31747202]
-Human 
-14.32, 14.32, 12.74
-
-321
 x position: 3
-y position: 3
-time_robot_predict_mean: [11.33139818]
-time_human_predict_mean: [12.93362642]
-Robot 
-4.24, 10.61, 11.03
-
-322
-x position: 20
-y position: 1
-time_robot_predict_mean: [0.00022705]
-time_human_predict_mean: [0.79771503]
-died 
-
-
-323
-x position: 13
-y position: 1
-time_robot_predict_mean: [17.57441813]
-time_human_predict_mean: [5.00178198]
-Human 
-7.07, 7.07, 6.51
-
-324
-x position: 2
-y position: 2
-time_robot_predict_mean: [6.03388328]
-time_human_predict_mean: [12.77716929]
-Robot 
-2.83, 7.07, 7.98
-
-325
-x position: 7
 y position: 4
-time_robot_predict_mean: [20.13312953]
-time_human_predict_mean: [12.29378679]
-Human 
-13.60, 13.60, 13.02
-
-326
-x position: 16
-y position: 0
-time_robot_predict_mean: [21.872782]
-time_human_predict_mean: [0.95366849]
-Human 
-4.00, 4.00, 3.40
-
-327
-x position: 0
-y position: 1
-time_robot_predict_mean: [1.81242416]
-time_human_predict_mean: [17.64524477]
+time_robot_predict_mean: [12.84]
+time_human_predict_mean: [17.16]
 Robot 
-1.00, 2.50, 2.67
-
-328
-x position: 11
-y position: 4
-time_robot_predict_mean: [19.30418123]
-time_human_predict_mean: [9.53150536]
-Human 
-9.85, 9.85, 9.34
-
-329
-x position: 0
-y position: 0
-time_robot_predict_mean: [0.10000086]
-time_human_predict_mean: [11.85730469]
-Robot 
-0.00, 0.00, 0.33
-
-330
-x position: 17
-y position: 0
-time_robot_predict_mean: [4.81085299]
-time_human_predict_mean: [2.68454087]
-Human 
-3.00, 3.00, 3.06
-
-331
-x position: 10
-y position: 5
-time_robot_predict_mean: [9.68502412]
-time_human_predict_mean: [7.00349722]
-Human 
-11.18, 11.18, 11.44
-
-332
-x position: 17
-y position: 0
-time_robot_predict_mean: [4.81085299]
-time_human_predict_mean: [3.05734008]
-Human 
-3.00, 3.00, 3.15
-
-333
-x position: 8
-y position: 3
-time_robot_predict_mean: [16.39673617]
-time_human_predict_mean: [10.58192416]
-Human 
-12.37, 12.37, 10.92
-
-334
-x position: 10
-y position: 4
-time_robot_predict_mean: [20.81228051]
-time_human_predict_mean: [0.]
-died 
-
-
-335
-x position: 17
-y position: 2
-time_robot_predict_mean: [4.21290531]
-time_human_predict_mean: [0.]
-died 
-
-
-336
-x position: 16
-y position: 0
-time_robot_predict_mean: [21.87337192]
-time_human_predict_mean: [3.39789067]
-Human 
-4.00, 4.00, 3.83
-
-337
-x position: 7
-y position: 4
-time_robot_predict_mean: [20.13312954]
-time_human_predict_mean: [13.02154611]
-Human 
-13.60, 13.60, 13.57
-
-338
-x position: 15
-y position: 0
-time_robot_predict_mean: [37.56370218]
-time_human_predict_mean: [2.78733212]
-Human 
-5.00, 5.00, 4.88
-
-339
-x position: 20
-y position: 0
-time_robot_predict_mean: [0.00013562]
-time_human_predict_mean: [0.]
-died 
-
-
-340
-x position: 13
-y position: 2
-time_robot_predict_mean: [25.95310468]
-time_human_predict_mean: [0.]
-died 
-
-
-341
+5.00, 12.50, 12.59
+317
 x position: 12
 y position: 5
-time_robot_predict_mean: [12.61964304]
-time_human_predict_mean: [0.]
-died 
-
-
-342
-x position: 4
-y position: 3
-time_robot_predict_mean: [12.5292691]
-time_human_predict_mean: [15.90759261]
-Robot 
-5.00, 12.50, 12.37
-
-343
-x position: 16
-y position: 1
-time_robot_predict_mean: [15.76576977]
-time_human_predict_mean: [0.]
-died 
-
-
-344
-x position: 11
-y position: 5
-time_robot_predict_mean: [6.86006361]
-time_human_predict_mean: [9.53300992]
-Robot 
-12.08, 30.21, 29.70
-
-345
-x position: 6
-y position: 2
-time_robot_predict_mean: [16.08105707]
-time_human_predict_mean: [13.88307695]
+time_robot_predict_mean: [31.72]
+time_human_predict_mean: [9.24]
 Human 
-14.14, 14.14, 14.79
-
-346
-x position: 1
-y position: 3
-time_robot_predict_mean: [7.47526836]
-time_human_predict_mean: [14.04572912]
-Robot 
-3.16, 7.91, 7.36
-
-347
+9.43, 9.43, 9.35
+318
+x position: 14
+y position: 1
+time_robot_predict_mean: [31.29]
+time_human_predict_mean: [6.05]
+Human 
+6.08, 6.08, 6.51
+319
 x position: 10
-y position: 2
-time_robot_predict_mean: [19.31727773]
-time_human_predict_mean: [8.91364179]
+y position: 4
+time_robot_predict_mean: [26.89]
+time_human_predict_mean: [10.69]
 Human 
-10.20, 10.20, 10.88
-
-348
-x position: 12
-y position: 5
-time_robot_predict_mean: [26.00507858]
-time_human_predict_mean: [7.05002672]
-Human 
-9.43, 9.43, 9.34
-
-349
-x position: 4
-y position: 0
-time_robot_predict_mean: [10.10514259]
-time_human_predict_mean: [11.13975302]
-Robot 
-4.00, 10.00, 10.36
-
-350
-x position: 12
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [8.49648606]
-died 
-
-
-351
+10.77, 10.77, 10.14
+320
 x position: 5
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [14.05444177]
-died 
-
-
-352
-x position: 10
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [10.87688013]
-died 
-
-
-353
-x position: 8
-y position: 1
-time_robot_predict_mean: [19.42192745]
-time_human_predict_mean: [12.67464369]
+y position: 4
+time_robot_predict_mean: [16.29]
+time_human_predict_mean: [15.4]
 Human 
-12.04, 12.04, 13.37
-
-354
-x position: 6
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [14.30720618]
-died 
-
-
-355
-x position: 13
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [4.86370421]
-died 
-
-
-356
-x position: 11
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [9.0544205]
-died 
-
-
-357
-x position: 13
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [6.51230598]
-died 
-
-
-358
+15.52, 15.52, 15.24
+321
+x position: 1
+y position: 4
+time_robot_predict_mean: [10.33]
+time_human_predict_mean: [19.01]
+Robot 
+4.12, 10.31, 10.12
+322
 x position: 12
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [8.49320739]
-died 
-
-
-359
-x position: 16
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [5.31944727]
-died 
-
-
-360
-x position: 14
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [6.26180849]
-died 
-
-
-361
-x position: 6
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [15.15577292]
-died 
-
-
-362
-x position: 13
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [6.80284863]
-died 
-
-
-363
+y position: 1
+time_robot_predict_mean: [29.68]
+time_human_predict_mean: [7.21]
+Human 
+8.06, 8.06, 7.45
+323
 x position: 11
 y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [9.33655357]
-died 
-
-
-364
-x position: 10
+time_robot_predict_mean: [29.59]
+time_human_predict_mean: [9.91]
+Human 
+9.85, 9.85, 9.17
+324
+x position: 5
+y position: 0
+time_robot_predict_mean: [12.85]
+time_human_predict_mean: [14.59]
+Robot 
+5.00, 12.50, 12.52
+325
+x position: 19
 y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [10.87687994]
-died 
-
-
-365
-x position: 12
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [9.33740635]
-died 
-
-
-366
-x position: 7
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [11.22431418]
-died 
-
-
-367
-x position: 14
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [7.25299268]
-died 
-
-
-368
-x position: 8
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [12.5333045]
-died 
-
-
-369
-x position: 18
+time_robot_predict_mean: [33.27]
+time_human_predict_mean: [1.95]
+Human 
+2.24, 2.24, 1.48
+326
+x position: 9
 y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [2.88925305]
-died 
-
-
-370
-x position: 17
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [4.33062071]
-died 
-
-
-371
+time_robot_predict_mean: [23.13]
+time_human_predict_mean: [11.09]
+Human 
+11.05, 11.05, 11.76
+327
 x position: 15
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [5.08264529]
-died 
-
-
-372
-x position: 4
-y position: 5
-time_robot_predict_mean: [15.74987378]
-time_human_predict_mean: [5.57868172]
+y position: 4
+time_robot_predict_mean: [27.25]
+time_human_predict_mean: [6.56]
 Human 
-16.76, 16.76, 16.93
-
-373
-x position: 18
+6.40, 6.40, 6.00
+328
+x position: 5
+y position: 0
+time_robot_predict_mean: [12.74]
+time_human_predict_mean: [14.59]
+Robot 
+5.00, 12.50, 12.50
+329
+x position: 3
 y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [2.88925328]
-died 
-
-
-374
+time_robot_predict_mean: [8.06]
+time_human_predict_mean: [17.17]
+Robot 
+3.16, 7.91, 8.23
+330
+x position: 4
+y position: 4
+time_robot_predict_mean: [14.09]
+time_human_predict_mean: [16.56]
+Robot 
+5.66, 14.14, 14.19
+331
 x position: 19
 y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-375
-x position: 3
-y position: 4
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-376
-x position: 16
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [3.6164759]
-died 
-
-
-377
-x position: 2
+time_robot_predict_mean: [47.53]
+time_human_predict_mean: [4.02]
+Human 
+4.12, 4.12, 4.99
+332
+x position: 4
 y position: 5
-time_robot_predict_mean: [12.98788437]
+time_robot_predict_mean: [15.94]
+time_human_predict_mean: [16.54]
+Robot 
+6.40, 16.01, 14.98
+333
+x position: 0
+y position: 4
+time_robot_predict_mean: [10.6]
+time_human_predict_mean: [10.46]
+Human 
+20.40, 20.40, 20.15
+334
+x position: 16
+y position: 5
+time_robot_predict_mean: [29.88]
+time_human_predict_mean: [6.36]
+Human 
+6.40, 6.40, 6.29
+335
+x position: 16
+y position: 3
+time_robot_predict_mean: [11.53]
+time_human_predict_mean: [4.99]
+Human 
+5.00, 5.00, 5.52
+336
+x position: 15
+y position: 4
+time_robot_predict_mean: [26.79]
+time_human_predict_mean: [6.42]
+Human 
+6.40, 6.40, 6.96
+337
+x position: 3
+y position: 3
+time_robot_predict_mean: [10.36]
 time_human_predict_mean: [0.]
 died 
-
-
-378
+Human 
+17.26, 17.26, 17.64
+338
+x position: 10
+y position: 3
+time_robot_predict_mean: [23.02]
+time_human_predict_mean: [10.8]
+Human 
+10.44, 10.44, 9.38
+339
 x position: 7
 y position: 0
-time_robot_predict_mean: [0.]
+time_robot_predict_mean: [16.76]
+time_human_predict_mean: [12.84]
+Human 
+13.00, 13.00, 13.06
+340
+x position: 0
+y position: 1
+time_robot_predict_mean: [2.61]
+time_human_predict_mean: [19.78]
+Robot 
+1.00, 2.50, 1.89
+341
+x position: 5
+y position: 2
+time_robot_predict_mean: [14.09]
+time_human_predict_mean: [16.04]
+Robot 
+5.39, 13.46, 13.64
+342
+x position: 13
+y position: 2
+time_robot_predict_mean: [24.38]
+time_human_predict_mean: [7.76]
+Human 
+7.28, 7.28, 6.55
+343
+x position: 19
+y position: 0
+time_robot_predict_mean: [5.82]
+time_human_predict_mean: [1.52]
+Human 
+1.00, 1.00, 1.22
+344
+x position: 15
+y position: 0
+time_robot_predict_mean: [15.37]
+time_human_predict_mean: [5.29]
+Human 
+5.00, 5.00, 4.86
+345
+x position: 8
+y position: 0
+time_robot_predict_mean: [20.9]
+time_human_predict_mean: [12.03]
+Human 
+12.00, 12.00, 12.65
+346
+x position: 7
+y position: 1
+time_robot_predict_mean: [18.88]
+time_human_predict_mean: [13.98]
+Human 
+13.04, 13.04, 13.03
+347
+x position: 15
+y position: 4
+time_robot_predict_mean: [34.26]
+time_human_predict_mean: [6.53]
+Human 
+6.40, 6.40, 5.63
+348
+x position: 17
+y position: 1
+time_robot_predict_mean: [15.61]
+time_human_predict_mean: [2.87]
+Human 
+3.16, 3.16, 3.62
+349
+x position: 14
+y position: 2
+time_robot_predict_mean: [34.76]
+time_human_predict_mean: [6.68]
+Human 
+6.32, 6.32, 5.73
+350
+x position: 16
+y position: 0
+time_robot_predict_mean: [29.76]
+time_human_predict_mean: [3.91]
+Human 
+4.00, 4.00, 3.67
+351
+x position: 10
+y position: 1
+time_robot_predict_mean: [27.2]
+time_human_predict_mean: [10.65]
+Human 
+10.05, 10.05, 10.06
+352
+x position: 20
+y position: 3
+time_robot_predict_mean: [43.66]
+time_human_predict_mean: [2.94]
+Human 
+3.00, 3.00, 3.68
+353
+x position: 5
+y position: 4
+time_robot_predict_mean: [16.29]
+time_human_predict_mean: [15.37]
+Human 
+15.52, 15.52, 15.65
+354
+x position: 3
+y position: 4
+time_robot_predict_mean: [12.72]
+time_human_predict_mean: [17.16]
+Robot 
+5.00, 12.50, 12.98
+355
+x position: 2
+y position: 1
+time_robot_predict_mean: [5.9]
+time_human_predict_mean: [17.47]
+Robot 
+2.24, 5.59, 5.02
+356
+x position: 13
+y position: 3
+time_robot_predict_mean: [27.39]
+time_human_predict_mean: [8.05]
+Human 
+7.62, 7.62, 7.58
+357
+x position: 16
+y position: 4
+time_robot_predict_mean: [18.7]
+time_human_predict_mean: [5.96]
+Human 
+5.66, 5.66, 5.16
+358
+x position: 19
+y position: 1
+time_robot_predict_mean: [18.2]
+time_human_predict_mean: [1.59]
+Human 
+1.41, 1.41, 2.30
+359
+x position: 20
+y position: 4
+time_robot_predict_mean: [27.91]
+time_human_predict_mean: [3.92]
+Human 
+4.00, 4.00, 3.74
+360
+x position: 7
+y position: 2
+time_robot_predict_mean: [18.72]
+time_human_predict_mean: [13.73]
+Human 
+13.15, 13.15, 12.74
+361
+x position: 7
+y position: 3
+time_robot_predict_mean: [18.89]
+time_human_predict_mean: [12.93]
+Human 
+13.34, 13.34, 13.48
+362
+x position: 20
+y position: 4
+time_robot_predict_mean: [27.91]
+time_human_predict_mean: [3.83]
+Human 
+4.00, 4.00, 4.03
+363
+x position: 13
+y position: 5
+time_robot_predict_mean: [21.82]
+time_human_predict_mean: [8.9]
+Human 
+8.60, 8.60, 8.65
+364
+x position: 14
+y position: 0
+time_robot_predict_mean: [8.71]
 time_human_predict_mean: [0.]
 died 
-
-
+Human 
+6.00, 6.00, 6.44
+365
+x position: 3
+y position: 4
+time_robot_predict_mean: [12.81]
+time_human_predict_mean: [17.16]
+Robot 
+5.00, 12.50, 12.32
+366
+x position: 0
+y position: 4
+time_robot_predict_mean: [0.]
+time_human_predict_mean: [20.15]
+died 
+Robot 
+4.00, 10.00, 9.22
+367
+x position: 8
+y position: 5
+time_robot_predict_mean: [11.39]
+time_human_predict_mean: [13.11]
+Robot 
+9.43, 23.58, 23.56
+368
+x position: 17
+y position: 3
+time_robot_predict_mean: [9.76]
+time_human_predict_mean: [4.29]
+Human 
+4.24, 4.24, 4.68
+369
+x position: 14
+y position: 5
+time_robot_predict_mean: [27.7]
+time_human_predict_mean: [8.11]
+Human 
+7.81, 7.81, 8.08
+370
+x position: 15
+y position: 0
+time_robot_predict_mean: [16.42]
+time_human_predict_mean: [5.22]
+Human 
+5.00, 5.00, 6.13
+371
+x position: 10
+y position: 2
+time_robot_predict_mean: [25.48]
+time_human_predict_mean: [10.03]
+Human 
+10.20, 10.20, 10.62
+372
+x position: 7
+y position: 1
+time_robot_predict_mean: [18.61]
+time_human_predict_mean: [13.51]
+Human 
+13.04, 13.04, 13.18
+373
+x position: 19
+y position: 4
+time_robot_predict_mean: [47.53]
+time_human_predict_mean: [4.34]
+Human 
+4.12, 4.12, 4.01
+374
+x position: 18
+y position: 2
+time_robot_predict_mean: [12.46]
+time_human_predict_mean: [2.87]
+Human 
+2.83, 2.83, 3.56
+375
+x position: 11
+y position: 1
+time_robot_predict_mean: [28.05]
+time_human_predict_mean: [8.77]
+Human 
+9.06, 9.06, 8.64
+376
+x position: 6
+y position: 5
+time_robot_predict_mean: [19.7]
+time_human_predict_mean: [14.85]
+Human 
+14.87, 14.87, 14.70
+377
+x position: 2
+y position: 1
+time_robot_predict_mean: [5.61]
+time_human_predict_mean: [17.47]
+Robot 
+2.24, 5.59, 5.28
+378
+x position: 5
+y position: 2
+time_robot_predict_mean: [13.87]
+time_human_predict_mean: [16.33]
+Robot 
+5.39, 13.46, 12.99
 379
 x position: 14
 y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [6.26171875]
-died 
-
-
+time_robot_predict_mean: [24.47]
+time_human_predict_mean: [6.29]
+Human 
+6.71, 6.71, 6.84
 380
-x position: 11
+x position: 1
 y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
+time_robot_predict_mean: [5.55]
+time_human_predict_mean: [18.32]
+Robot 
+2.24, 5.59, 6.06
 381
-x position: 10
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [10.45483398]
-died 
-
-
+x position: 8
+y position: 4
+time_robot_predict_mean: [19.27]
+time_human_predict_mean: [12.7]
+Human 
+12.65, 12.65, 12.25
 382
-x position: 7
+x position: 5
 y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
+time_robot_predict_mean: [17.7]
+time_human_predict_mean: [15.65]
+Human 
+15.81, 15.81, 15.75
 383
+x position: 9
+y position: 1
+time_robot_predict_mean: [22.32]
+time_human_predict_mean: [11.26]
+Human 
+11.05, 11.05, 11.01
+384
+x position: 13
+y position: 5
+time_robot_predict_mean: [20.35]
+time_human_predict_mean: [8.85]
+Human 
+8.60, 8.60, 7.89
+385
+x position: 3
+y position: 5
+time_robot_predict_mean: [13.69]
+time_human_predict_mean: [18.51]
+Robot 
+5.83, 14.58, 14.13
+386
+x position: 10
+y position: 4
+time_robot_predict_mean: [26.89]
+time_human_predict_mean: [10.55]
+Human 
+10.77, 10.77, 11.10
+387
+x position: 16
+y position: 4
+time_robot_predict_mean: [0.]
+time_human_predict_mean: [5.16]
+died 
+Robot 
+16.49, 41.23, 41.47
+388
+x position: 15
+y position: 0
+time_robot_predict_mean: [20.94]
+time_human_predict_mean: [5.35]
+Human 
+5.00, 5.00, 4.00
+389
+x position: 6
+y position: 0
+time_robot_predict_mean: [14.99]
+time_human_predict_mean: [14.02]
+Human 
+14.00, 14.00, 14.64
+390
+x position: 19
+y position: 1
+time_robot_predict_mean: [23.89]
+time_human_predict_mean: [1.83]
+Human 
+1.41, 1.41, 1.14
+391
+x position: 8
+y position: 4
+time_robot_predict_mean: [22.14]
+time_human_predict_mean: [12.61]
+Human 
+12.65, 12.65, 12.52
+392
+x position: 9
+y position: 1
+time_robot_predict_mean: [25.29]
+time_human_predict_mean: [11.21]
+Human 
+11.05, 11.05, 11.45
+393
+x position: 11
+y position: 4
+time_robot_predict_mean: [29.59]
+time_human_predict_mean: [9.67]
+Human 
+9.85, 9.85, 9.96
+394
+x position: 7
+y position: 3
+time_robot_predict_mean: [18.89]
+time_human_predict_mean: [13.2]
+Human 
+13.34, 13.34, 13.89
+395
+x position: 20
+y position: 5
+time_robot_predict_mean: [20.42]
+time_human_predict_mean: [1.34]
+Human 
+5.00, 5.00, 5.65
+396
 x position: 20
 y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-384
-x position: 5
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.]
-died 
-
-
-385
-x position: 15
-y position: 3
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [5.37548828]
-died 
-
-
-386
-x position: 15
-y position: 1
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [4.6847603]
-died 
-
-
-387
-x position: 12
-y position: 0
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [8.49316406]
-died 
-
-
-388
-x position: 0
-y position: 0
-time_robot_predict_mean: [0.21520996]
-time_human_predict_mean: [0.]
-died 
-
-
-389
-x position: 2
-y position: 5
-time_robot_predict_mean: [12.98788437]
-time_human_predict_mean: [0.]
-died 
-
-
-390
-x position: 15
-y position: 0
-time_robot_predict_mean: [37.56370218]
-time_human_predict_mean: [4.8814857]
+time_robot_predict_mean: [10.38]
+time_human_predict_mean: [0.68]
 Human 
-5.00, 5.00, 4.67
-
-391
-x position: 18
-y position: 2
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [2.18715332]
-died 
-
-
-392
-x position: 19
-y position: 5
-time_robot_predict_mean: [0.]
-time_human_predict_mean: [0.29343762]
-died 
-
-
-393
-x position: 5
-y position: 1
-time_robot_predict_mean: [12.53188951]
-time_human_predict_mean: [16.31215857]
-Robot 
-5.10, 12.75, 12.28
-
-394
-x position: 17
-y position: 3
-time_robot_predict_mean: [14.80261025]
-time_human_predict_mean: [4.33061937]
-Human 
-4.24, 4.24, 4.16
-
-395
-x position: 13
-y position: 0
-time_robot_predict_mean: [9.22335795]
-time_human_predict_mean: [6.85794825]
-Human 
-7.00, 7.00, 7.65
-
-396
-x position: 14
-y position: 5
-time_robot_predict_mean: [14.00576264]
-time_human_predict_mean: [7.7663183]
-Human 
-7.81, 7.81, 7.72
-
+0.00, 0.00, 0.31
 397
-x position: 1
-y position: 0
-time_robot_predict_mean: [1.86333073]
-time_human_predict_mean: [19.22190881]
-Robot 
-1.00, 2.50, 2.90
-
-398
-x position: 4
-y position: 5
-time_robot_predict_mean: [15.7498735]
-time_human_predict_mean: [16.92604006]
-Robot 
-6.40, 16.01, 16.81
-
-399
-x position: 19
+x position: 14
 y position: 1
-time_robot_predict_mean: [0.01209781]
-time_human_predict_mean: [1.46858889]
-Robot 
-19.03, 47.57, 46.61robot count: 70human count: 87Times skipped: 243
+time_robot_predict_mean: [28.31]
+time_human_predict_mean: [6.2]
+Human 
+6.08, 6.08, 5.08
+398
+x position: 9
+y position: 4
+time_robot_predict_mean: [24.96]
+time_human_predict_mean: [11.71]
+Human 
+11.70, 11.70, 11.50
+399
+x position: 15
+y position: 1
+time_robot_predict_mean: [36.47]
+time_human_predict_mean: [5.43]
+Human 
+5.10, 5.10, 4.63robot count: 100human count: 298Times skipped: 0
