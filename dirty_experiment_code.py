@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, WhiteKernel, ConstantKernel as C
-from mayavi import mlab
+#from mayavi import mlab
 
 #from sklearn.model_selection import train_test_split
 #from sklearn.gaussian_process.kernels import RBF, ConstantKernel as C
@@ -98,7 +98,7 @@ rng = np.random.default_rng()
 ################################################################
 #################### start the loop ############################
 ################################################################
-for count in range (300, 400, 100):
+for count in range (100, 400, 100):
 
     for i in range (0,count):
 
@@ -497,6 +497,38 @@ for count in range (300, 400, 100):
 
     plt.tight_layout()
     plt.show()
+
+
+################################################################
+####################  Plot new library  ########################
+################################################################
+
+
+    #fig = mlab.figure()
+    
+    #sys.exit()
+
+    #ax_ranges = [0, 20, 0, 6, 0, 50]
+    #ax_scale = [1.0, 1.0, 1.0]
+    #ax_extent = ax_ranges * np.repeat(ax_scale, 2)
+
+    #surf3 = mlab.surf(x_grid, y_grid, z_mean_human, colormap='Blues')
+    #surf4 = mlab.surf(x_grid, y_grid, z_mean_robot, colormap='Oranges')
+
+    #surf3.actor.actor.scale = ax_scale
+    #surf4.actor.actor.scale = ax_scale
+    
+    #mlab.view(60, 74, 17, [-2.5, -4.6, -0.3])
+    #mlab.outline(surf3, color=(.7, .7, .7), extent=ax_extent)
+    #mlab.axes(surf3, color=(.7, .7, .7), extent=ax_extent,
+    #          ranges=ax_ranges,
+    #          xlabel='x', ylabel='y', zlabel='z')
+
+
+################################################################
+####################  Close down ###############################
+################################################################
+
 
 f.close()  ##close the results file
 
