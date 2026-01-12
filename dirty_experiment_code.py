@@ -8,13 +8,13 @@ Created on Fri Aug 29 12:12:50 2025
 
 import numpy as np
 import sys
-import time
+#import time
 
 import matplotlib.pyplot as plt
 
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, WhiteKernel, ConstantKernel as C
-#from mayavi import mlab
+#rom mayavi import mlab
 
 #from sklearn.model_selection import train_test_split
 #from sklearn.gaussian_process.kernels import RBF, ConstantKernel as C
@@ -26,7 +26,7 @@ f = open('workfile', 'w', encoding="utf-8")
 ################################################################
 
 
-speed_robot = 0.4
+speed_robot = 0.8
 speed_human = 1.0
 #count = 400 #number of iterations
 sleep_time = 0.1 #delay in seconds on each loop
@@ -98,7 +98,7 @@ rng = np.random.default_rng()
 ################################################################
 #################### start the loop ############################
 ################################################################
-for count in range (100, 400, 100):
+for count in range (400, 500, 100):
 
     for i in range (0,count):
 
@@ -145,7 +145,7 @@ for count in range (100, 400, 100):
 
  
         x_position = rng.integers(0, 20, endpoint = True)
-        y_position = rng.integers(0, 5, endpoint = True)
+        y_position = rng.integers(0, 6, endpoint = True)
 
         print("x position: ", x_position)
         print("y poistion: ", y_position)
@@ -167,7 +167,7 @@ for count in range (100, 400, 100):
 ################################################################
 
         if i == 0: # First round - do human
-            distance_human = ((20-x_position)**2 + y_position**2) ** 0.5
+            distance_human = ((x_position)**2 + (6-y_position)**2) ** 0.5
             time_human = distance_human / speed_human
             noise_human = time_human + rng.normal(mu, sigma, 1)
             noise_human = noise_human.reshape (1,1)
@@ -226,10 +226,10 @@ for count in range (100, 400, 100):
 
 
         # look to see if there is a less than zero time prediction and skip if this is the case
-        if i>1 and (time_human_predict_mean <= 0.01 or time_robot_predict_mean <= 0.01):
-            print ("died")
-            output = "died \n"
-            f.write (output)
+        #if i>1 and (time_human_predict_mean <= 0.01 or time_robot_predict_mean <= 0.01):
+            #print ("died")
+            #output = "died \n"
+            #f.write (output)
             #died += 1  ## just to count how many times the loop was skipped
             # main loop - runs if +ve values for predicted time.
             #continue
@@ -244,7 +244,9 @@ for count in range (100, 400, 100):
             output = "Human \n"
             f.write(output)
         
-            distance_human = ((20-x_position)**2 + y_position**2) ** 0.5
+            distance_human = ((x_position)**2 + (6-y_position)**2) ** 0.5
+            distance_human += distance_human + ((20-x_position)**2 + (3-y_position)**2)**0.5
+            
             time_human = distance_human / speed_human
             noise_human = time_human + rng.normal(0, sigma, 1)
         
@@ -290,6 +292,8 @@ for count in range (100, 400, 100):
             f.write(output)
         
             distance_robot = (x_position**2 + y_position**2) ** 0.5  
+            distance_robot += distance_robot + ((20-x_position)**2 + (3-y_position)**2)**0.5
+            
             time_robot = distance_robot / speed_robot
             noise_robot = time_robot + rng.normal(mu, sigma, 1)
         
@@ -481,10 +485,10 @@ for count in range (100, 400, 100):
     ax = fig.add_subplot(111, projection="3d")
 
 # Human surface
-    ax.plot_surface(x_grid, y_grid, z_mean_human, cmap="viridis", alpha=0.7, label="Human")
+    ax.plot_surface(y_grid, x_grid, z_mean_human, cmap="viridis", alpha=0.7, label="Human")
 
 # Robot surface
-    ax.plot_surface(x_grid, y_grid, z_mean_robot, cmap="magma", alpha=0.7, label="Robot")
+    ax.plot_surface(y_grid, x_grid, z_mean_robot, cmap="magma", alpha=0.7, label="Robot")
 
 
     ax.set_title(f"Predicted time for human and robot (s) over {count}")
